@@ -16,6 +16,9 @@ Route::get('/sobre', 'HomeController@sobre')->name('sobre');
 Route::get('/aprendiz', 'HomeController@aprendiz')->name('aprendiz');
 Route::get('/contato', 'HomeController@contato')->name('contato');
 
+Route::get('/cursos', 'HomeController@cursos')->name('cursos');
+Route::get('/curso/{nome}', 'HomeController@curso')->name('curso');
+
 Route::get('/noticia/{id}', 'HomeController@noticia');
 Route::get('/noticias', 'HomeController@noticias');
 
@@ -28,8 +31,9 @@ Auth::routes();
 Route::get('/admin', 'AdminController@index');
 
 
-Route::resource('admin/usuarios', 'Admin\UsuariosController');
+Route::resource('/admin/usuarios', 'Admin\UsuariosController');
 
 Route::resource('/admin/noticias','Admin\NoticiasController');
+Route::resource('/admin/cursos','Admin\CursosController');
 
 

@@ -34,7 +34,7 @@
         </div>
         <div class="container">
             <h1 class="text-center title">Nossos parceiros</h1>
-            @for ($i = 0; $i < 10; $i++)
+            @for ($i = 0; $i < 5; $i++)
             <div class="col-md-2 col-sm-3 col-xs-6 logo-parceiro">
                 <img src="assets/img/logo_institutotibagi-300x128.png" class="img-responsive">
             </div>

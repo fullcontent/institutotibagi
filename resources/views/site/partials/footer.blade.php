@@ -59,20 +59,14 @@
                 </div>
                 <div class="col-md-3 col-xs-12">
                     <div>
-                        <h4>Siga-nos</h4><span class="footer-icons"><i class="fa fa-facebook-official"></i></span><span class="footer-icons"><i class="fa fa-youtube"></i></span><span class="footer-icons"><i class="fa fa-soundcloud"></i></span></div>
+                        <h4>Siga-nos</h4><span class="footer-icons"><i class="fa fa-facebook-official"></i></span><span class="footer-icons"><i class="fa fa-youtube"></i></span><span class="footer-icons"><i class="fa fa-soundcloud"></i></span>
+                        
+    
+                    </div>
                 </div>
             </div>
         </div>
-        @if (Route::has('login'))
-                <div class="top-right links">
-                    @auth
-                        <a href="{{ url('/admin') }}">Admin</a>
-                    @else
-                        <a href="{{ route('login') }}">Login</a>
-                        <a href="{{ route('register') }}">Register</a>
-                    @endauth
-                </div>
-            @endif
+        
     </footer>
     <script src="assets/js/jquery.min.js"></script>
     <script src="assets/bootstrap/js/bootstrap.min.js"></script>

@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use App\Models\Noticias;
+use App\Models\Cursos;
 
 
 class HomeController extends Controller
@@ -66,6 +67,16 @@ class HomeController extends Controller
     {
         $post = Noticias::all();
         return $post;
+    }
+
+
+    public function cursos()
+    {
+        return Cursos::with('images')->get();
+    }
+    public function curso($nome='')
+    {
+        return Cursos::where('nome',$nome)->with('images')->get();
     }
 
 }

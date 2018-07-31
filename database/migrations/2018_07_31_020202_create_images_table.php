@@ -17,6 +17,7 @@ class CreateImagesTable extends Migration
             $table->increments('id');
             $table->longText('filename');
             $table->string('post_id');
+            $table->string('post_type');
             $table->timestamps();
         });
     }

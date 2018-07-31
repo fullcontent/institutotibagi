@@ -64,7 +64,9 @@ class NoticiasController extends Controller
 
         $img = new Image;
         $img->filename = $path;
+
         $img->post_id = $post->id;
+        $img->post_type = 'noticias';
         $img->save();
 
         }

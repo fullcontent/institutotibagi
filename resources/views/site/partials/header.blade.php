@@ -33,7 +33,7 @@
                             <li role="presentation"><a href="{{route('sobre')}}#infos">seja um doador</a></li>
                         </ul>
                     </li>
-                    <li role="presentation"><a href="#">Cursos CHAVE</a></li>
+                    <li role="presentation"><a href="{{route('cursos')}}">Cursos CHAVE</a></li>
                     <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" aria-expanded="false" href="#">Aprendiz <span class="caret"></span></a>
                         <ul class="dropdown-menu" role="menu">
                             <li role="presentation"><a href="{{route('aprendiz')}}">programas de aprendizagem</a></li>
@@ -44,6 +44,18 @@
                     </li>
                     <li role="presentation"><a href="#">EmpresaS </a></li>
                     <li role="presentation"><a href="{{route('contato')}}">Contato </a></li>
+                    @if (Route::has('login'))
+                
+                    @auth
+
+                    <li role="presentation"><a href="{{ url('/admin') }}">Admin</a></li>
+                        
+                    @else
+                        <li role="presentation"><a href="{{ route('login') }}">Login</a></li>
+                        <li role="presentation"><a href="{{ route('register') }}">Register</a></li>
+                    @endauth
+                
+            @endif
                 </ul>
                 
 
