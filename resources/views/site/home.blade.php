@@ -19,14 +19,16 @@
             <div class="col-lg-4 col-lg-offset-1 col-md-5 col-sm-12 col-xs-12">
                 <h1 class="title-box">Últimas notícias</h1>
 
-                @for ($i = 0; $i < 5; $i++)
+                @foreach($noticias as $noticia)
                 <div class="noticia">
                     <div class="col-md-12 col-sm-12 col-xs-12">
-                        <a href=""><p>Doação de Imposto de Renda vai até 28 de dezembro no site do COMTIBA&nbsp;</p></a>
+                        <a href="noticia/{{$noticia->id}}">
+                            <p>{{$noticia->title}}</p>
+                        </a>
                         
                     </div>
                 </div>
-                @endfor
+                @endforeach
 
             </div>
         </div>

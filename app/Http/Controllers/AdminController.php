@@ -30,7 +30,12 @@ class AdminController extends Controller
     public function usuarios()
     {
         $users = User::all();
-        return view('admin.usuarios')->with('usuarios',$users);
+        return view('admin.usuarios.index')->with('usuarios',$users);
+    }
+
+    public function noticias()
+    {
+      return view('admin.noticias.index');
     }
 
         

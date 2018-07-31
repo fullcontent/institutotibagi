@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use App\Models\Noticias;
 
 
 class HomeController extends Controller
@@ -20,8 +21,11 @@ class HomeController extends Controller
      * @return \Illuminate\Http\Response
      */
     public function index()
-    {
-        return view('site.home');
+    {   
+
+        $lastNews = $this->lastNews();
+
+        return view('site.home')->with('noticias',$lastNews);
     }
 
     public function sobre()
@@ -39,5 +43,29 @@ class HomeController extends Controller
         return view('site.contato');
     }
 
+
+
+
+    public function lastNews()
+    {
+        $news = Noticias::take(5)->orderBy('created_at','desc')->get();
+
+        return $news;
+
+    }
+
+
+    public function noticia($id='')
+    {
+        $post = Noticias::find($id);
+        return $post;
+    }
+
+
+    public function noticias()
+    {
+        $post = Noticias::all();
+        return $post;
+    }
 
 }

@@ -107,20 +107,7 @@ return [
     |
     */
 
-    'menu' => [
-        'MAIN NAVIGATION',
-        [
-            'text' => 'Blog',
-            'url'  => 'admin/blog',
-            'can'  => 'manage-blog',
-        ],
-        [
-            'text'        => 'Usuarios',
-            'url'         => 'admin/usuarios',
-            'icon'        => 'users',
-            
-        ],
-    ],
+    'menu' => [],
 
     /*
     |--------------------------------------------------------------------------
