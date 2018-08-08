@@ -94,6 +94,7 @@
     <section id="equipe">
         <div class="container">
             <h1 class="text-center title text-white">Quem faz isso acontecer</h1>
+            
             <div class="col-md-2 col-sm-4 equipe"><img src="assets/img/WEBPEDALADA-SOCIAL-GIULIANO-GOMES-07-1024x885.jpg" class="img-responsive">
                 <h1 class="text-center equipe-cargo">Fundador </h1>
                 <h1 class="text-center equipe-nome">Édio Furlanetto</h1></div>
@@ -102,10 +103,16 @@
     <section id="reconhecimento">
         <div class="container">
             <h1 class="title text-center">Reconhecimento </h1>
-            <div class="col-md-2 col-md-offset-0 col-sm-4 col-xs-6"><img src="assets/img/logo.png" class="img-responsive"></div>
-            <div class="col-md-2 col-sm-4 col-xs-6"><img src="assets/img/Selo ODM 2013-2014 - Instituição [grande].jpg" class="img-responsive"></div>
-            <div class="col-md-2 col-sm-4 col-xs-6"><img src="assets/img/SELO_PNG-290x300.png" class="img-responsive"></div>
-            <div class="col-md-2 col-sm-4 col-xs-6"><img src="assets/img/Selo-Sesi-ODS-2017_PNG.png" class="img-responsive"></div>
+            
+             @php 
+
+                $files = File::allFiles(public_path('uploads/selos'));
+                
+            @endphp
+            @foreach ($files as $file)
+            <div class="col-md-2 col-sm-4 col-xs-6"><img src="uploads/selos/{{$file->getFilename()}}" class="img-responsive"></div>
+            @endforeach
+            
         </div>
     </section>
 

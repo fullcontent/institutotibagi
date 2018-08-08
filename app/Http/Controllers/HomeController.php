@@ -7,6 +7,8 @@ use App\Models\Noticias;
 use App\Models\Cursos;
 
 
+
+
 class HomeController extends Controller
 {
     /**
@@ -77,6 +79,16 @@ class HomeController extends Controller
     public function curso($nome='')
     {
         return Cursos::where('nome',$nome)->with('images')->get();
+    }
+
+    public function parceiros()
+    {
+        
+        foreach (\Illuminate\Support\Facades\Storage::files('parceiros') as $filename) {
+        $file = \Illuminate\Support\Facades\Storage::get($filename);
+    // do whatever with $file;
+}
+
     }
 
 }

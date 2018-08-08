@@ -34,11 +34,29 @@
         </div>
         <div class="container">
             <h1 class="text-center title">Nossos parceiros</h1>
-            @for ($i = 0; $i < 5; $i++)
-            <div class="col-md-2 col-sm-3 col-xs-6 logo-parceiro">
-                <img src="assets/img/logo_institutotibagi-300x128.png" class="img-responsive">
+            
+            @php 
+
+                $files = File::allFiles(public_path('uploads/parceiros'));
+                
+
+
+
+            @endphp
+            @foreach ($files as $file)
+
+            
+            <div class="col-md-3 col-sm-2 col-xs-2" style="height: 100px;">
+                    
+                    <a href="#" class="thumbnail" style="border: none;">
+                    <img src="uploads/parceiros/{{$file->getFilename()}}" class="img-responsive" style="max-height: 70px; width: auto;">
+                    </a>
+                    
+                
+                
             </div>
-            @endfor
+            @endforeach
+
 
         </div>
     </section>

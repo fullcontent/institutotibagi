@@ -23,6 +23,19 @@ Route::get('/noticia/{id}', 'HomeController@noticia');
 Route::get('/noticias', 'HomeController@noticias');
 
 
+Route::get('/parceiros', function() {
+
+	$files = File::allFiles(public_path('uploads/parceiros'));
+
+
+	
+
+foreach ($files as $file)
+{
+   dd($file);
+}
+
+});
 
 Auth::routes();
 
@@ -32,8 +45,8 @@ Route::get('/admin', 'AdminController@index');
 
 
 Route::resource('/admin/usuarios', 'Admin\UsuariosController');
-
 Route::resource('/admin/noticias','Admin\NoticiasController');
 Route::resource('/admin/cursos','Admin\CursosController');
+Route::resource('/admin/parceiros','Admin\ParceirosController');
 
 

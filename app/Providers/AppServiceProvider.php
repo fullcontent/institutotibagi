@@ -57,6 +57,14 @@ class AppServiceProvider extends ServiceProvider
                 
             ]);
 
+            $event->menu->add([
+                'text'        => 'Parceiros',
+                'url'         =>  'admin/parceiros',
+                'icon'        => 'newspaper-o',
+                                    
+                
+            ]);
+
             $event->menu->add('CONFIGURAÇÕES DO SITE');
             
             $event->menu->add([
