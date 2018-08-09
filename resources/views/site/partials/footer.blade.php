@@ -18,22 +18,21 @@
                     <div>
                         <h4>O INSTITUTO </h4>
                         <ul class="list-unstyled footer-list">
-                            <li>Quem somos</li>
-                            <li>Fundador </li>
-                            <li>Equipe </li>
-                            <li>Parceiros </li>
-                            <li>Selos e certificações</li>
-                            <li>Editais </li>
+                            <li role="presentation" class="btn-block"><a href="{{route('sobre')}}#quemsomos">Quem somos</a></li>
+                            <li role="presentation" class="btn-block"><a href="{{route('sobre')}}#equipe">Equipe </a></li>
+                            <li role="presentation" class="btn-block"><a href="{{route('sobre')}}#historico">Histórico </a></li>
+                            <li role="presentation" class="btn-block"><a href="{{route('sobre')}}#reconhecimento">Selos e certificações</a></li>
+                            <li role="presentation" class="btn-block"><a href="{{route('sobre')}}#infos">Seja um doador</a></li>
                         </ul>
                     </div>
                 </div>
                 <div class="col-md-2 col-xs-6">
                     <div>
-                        <h4>CURSOS CHAVE</h4>
+                        <h4>TRANSPARÊNCIA</h4>
                         <ul class="list-unstyled footer-list">
-                            <li>Quem somos</li>
-                            <li>Equipe </li>
-                        </ul>
+                            <li role="presentation" class="btn-block"><a href="{{route('sobre')}}#quemsomos">Editais</a></li>
+                            <li role="presentation" class="btn-block"><a href="{{route('sobre')}}#quemsomos">Estatuto</a></li>
+                            </ul>
                     </div>
                 </div>
                 <div class="col-md-2 col-xs-6">
@@ -68,8 +67,8 @@
         </div>
         
     </footer>
-    <script src="assets/js/jquery.min.js"></script>
-    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="{{asset('assets/js/jquery.min.js')}}"></script>
+    <script src="{{asset('assets/bootstrap/js/bootstrap.min.js')}}"></script>
 </body>
 
 </html>

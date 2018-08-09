@@ -110,7 +110,7 @@
                 
             @endphp
             @foreach ($files as $file)
-            <div class="col-md-2 col-sm-4 col-xs-6"><img src="uploads/selos/{{$file->getFilename()}}" class="img-responsive"></div>
+            <div class="col-md-2 col-sm-4 col-xs-6"><img src="{{asset('uploads/selos')}}/{{$file->getFilename()}}" class="img-responsive"></div>
             @endforeach
             
         </div>

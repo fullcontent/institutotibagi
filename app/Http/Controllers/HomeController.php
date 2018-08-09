@@ -60,8 +60,15 @@ class HomeController extends Controller
 
     public function noticia($id='')
     {
-        $post = Noticias::find($id);
-        return $post;
+        $noticia = Noticias::find($id);
+        $lastNews = $this->lastNews();
+
+
+        return view('site.noticia')->with([
+            'noticias'=>$lastNews,
+            'noticia'=>$noticia,
+
+        ]);
     }
 
 
