@@ -21,11 +21,38 @@
         <h1>{{$noticia->title}}</h1></div>
     <div class="col-lg-7 col-md-7">
         
+        
+
         <article class="noticia">
         	
-        	{!! $noticia->content !!}
+        	
+        @if (count($noticia->images) === 1)
+            @foreach($noticia->images as $i)
+            <div class="col-md-12 no-padding" style="height: 200px; overflow: hidden;">
+                <img src="{{asset($i->filename)}}" alt="" class="img-responsive">
+            </div>
+           
+            @endforeach
+
+            {!! $noticia->content !!}
+   
+        
+
+        
+        @elseif (count($noticia->images) > 1)
+             @foreach($noticia->images as $i)
+            <div class="col-md-4">
+                <img src="{{asset($i->filename)}}" alt="" class="img-responsive">
+            </div>
+            @endforeach
+        @else
+           {!! $noticia->content !!}
+        @endif
+
 
         </article>
+
+       
     </div>
     <div class="col-lg-5 col-md-5 col-sm-12 col-xs-12">
         <h1 class="title-box">Últimas notícias</h1>

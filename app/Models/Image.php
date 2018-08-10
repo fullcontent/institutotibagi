@@ -11,4 +11,9 @@ class Image extends Model
     {
     	return $this->belongsTo('App\Models\Noticias','post_id');
     }
+
+    public function curso()
+    {
+    	return $this->belongsTo('App\Models\Curso','post_id');
+    }
 }

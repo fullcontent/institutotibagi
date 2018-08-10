@@ -58,36 +58,74 @@
             </div>
         </div>
     </section>
+    
     <section class="formacoes">
-        <div class="container">
-            <div class="col-md-5 col-sm-6">
-                <h1 class="title">Adolescente Aprendiz</h1>
-                <p>Destinado a adolescentes de 14 a 17 anos incompletos.</p>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-7 col-sm-6">
                 <div>
-                    <h2>Eletroeletrônica </h2>
-                    <p>O aprendiz poderá apoiar o planejamento dos serviços de manutenção e instalação eletroeletrônica, além de manutenções preventivas, preditivas e corretivas, instalação de sistemas e componentes eletroeletrônicos, medições e testes.
-                        </p>
-                    <p>Poderá atuar nas seguintes áreas da empresa: Produção, Manutenção, Informática, Manutenção de computadores, Atendimento e Logística. </p>
-                    <p>Duração: 23 meses</p>
-                    <hr>
+                    <h1 class="title">Adolescente Aprendiz</h1>
+                    <p>Destinado a adolescentes de 14 a 17 anos incompletos.</p>
+                    <div class="col-md-10 no-padding">
+                        <div role="tablist" aria-multiselectable="true" class="panel-group" id="accordion-1">
+                           
+                            @foreach($cursosAdolescentes as $c)
+                            <div class="panel panel-default">
+                                <div role="tab" class="panel-heading">
+                                    <h4 class="panel-title"><a role="button" data-toggle="collapse" data-parent="#accordion-1" aria-expanded="false" href="#accordion-1 .item-{{$c->id}}">{{$c->nome}}</a></h4></div>
+                                
+                                <div role="tabpanel" class="panel-collapse collapse item-{{$c->id}}">
+                                    <div class="panel-body">
+                                        <p>{{$c->descritivo}}</p>
+                                        <a class="btn btn-success" role="button" href="{{route('curso', ['id'=>$c->id, 'slug'=>str_slug($c->nome)])}}">Saiba mais</a></div>
+                                        
+                                </div>
+                            </div>
+                            @endforeach
+                        </div>
+                    </div>
                 </div>
-                <div class="text-white">
-                    <h2>Auxiliar administrativo</h2>
-                    <p>O aprendiz poderá apoiar as atividades administrativas, enfatizando as áreas da produção, logística, pessoal, vendas, atendimento, contabilidade e finanças. </p>
-                    <p>Poderá atuar nas seguintes áreas da empresa: Administrativo, Financeiro, Recursos Humanos, Logística e Almoxarifado. </p>
-                    <p>Duração: 23 meses.</p>
+                <div>
+                    <h1 class="title">Jovem Aprendiz</h1>
+                    <p>Destinado a jovens de 18 a 22 anos.</p>
+                    <div class="col-md-10 no-padding">
+                        <div role="tablist" aria-multiselectable="true" class="panel-group" id="accordion-2">
+                            @foreach($cursosJovens as $c2)
+                            <div class="panel panel-default">
+                                <div role="tab" class="panel-heading">
+                                    <h4 class="panel-title"><a role="button" data-toggle="collapse" data-parent="#accordion-2" aria-expanded="false" href="#accordion-2 .item-{{$c2->id}}">{{$c2->nome}}</a></h4></div>
+                                
+                                <div role="tabpanel" class="panel-collapse collapse item-{{$c2->id}}">
+                                    <div class="panel-body">
+                                        <p>{{$c2->descritivo}}</p>
+                                        <a class="btn btn-success" role="button" href="{{route('curso', ['id'=>$c2->id, 'slug'=>str_slug($c2->nome)])}}">Saiba mais</a></div>
+                                        
+                                </div>
+                            </div>
+                            @endforeach
+                        </div>
+                    </div>
                 </div>
             </div>
-            <div class="col-md-5 col-md-offset-2 col-sm-6">
-                <h1 class="title">Jovem Aprendiz</h1>
-                <p>Destinado aos jovens de 18 a 24 anos incompletos. </p>
-                <h2>Eletromecânica com nr10</h2>
-                <p>O aprendiz poderá atuar em projetos elétricos, eletrônicos e mecânicos de máquinas e equipamentos, de acordo com normas técnicas, de saúde e segurança e ambientais vigentes. </p>
-                <p>Poderá atuar nas seguintes áreas da empresa: produção, manutenção e serviços. </p>
-                <p>Duração: 18 meses.</p>
+            <div class="col-md-5">
+                <h1 class="title">Legislação </h1>
+                <p>Tivemos, em 01/05/1943, a primeira Lei de aprendizagem (nº 5.452), pela qual somente o Sistema S podia fazer a formação teórica.Em 19 de dezembro de 2000 foi sancionada a nova lei, nº10.097, posteriormente regulamentada pelo decreto nº
+                    5.598, de 1º de dezembro de 2005, e com as diretrizes curriculares estabelecidas na Portaria MTE nº 615, de 13 de dezembro de 2007, reformulada pelas portarias 723/04/12 e 1005/07/2013. </p>
+                <h1>A LEI FOI CRIADA COM AS SEGUINTES INTENÇÕES: </h1>
+                <ul>
+                    <li>Erradicação do trabalho infantil </li>
+                    <li>Redução da evasão escolar </li>
+                    <li>Erradicação da pobreza </li>
+                    <li>Melhoria da qualificação profissional </li>
+                    <li>Efetivação do primeiro emprego </li>
+                </ul>
+                <p>Leia o texto completo da <a href="http://institutotibagi.org.br/wp-content/uploads/2015/05/LeiDeAprendizagem_L10097.pdf">Lei de Aprendizagem</a> </p>
             </div>
         </div>
-    </section>
+    </div>
+</section>
+
+
     <section class="saibamais">
         <div class="container">
             <div class="col-md-4 col-xs-12">

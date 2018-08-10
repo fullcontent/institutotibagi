@@ -34,7 +34,7 @@ class AppServiceProvider extends ServiceProvider
                 
             ]);
             $event->menu->add([
-                'text'        => 'Users',
+                'text'        => 'Usuários',
                 'url'         => 'admin/usuarios',
                 'icon'        => 'users',
                 'label'       => User::count(),
@@ -57,21 +57,11 @@ class AppServiceProvider extends ServiceProvider
                 
             ]);
 
-            $event->menu->add([
-                'text'        => 'Parceiros',
-                'url'         =>  'admin/parceiros',
-                'icon'        => 'newspaper-o',
-                                    
-                
-            ]);
+            
 
             $event->menu->add('CONFIGURAÇÕES DO SITE');
             
-            $event->menu->add([
-                'text'        => 'Banners',
-                'icon'        => 'image',
-                'url'         => 'admin/banners',                                
-                ]);
+            
             
         });
     }

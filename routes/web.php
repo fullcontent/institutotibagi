@@ -17,7 +17,7 @@ Route::get('/aprendiz', 'HomeController@aprendiz')->name('aprendiz');
 Route::get('/contato', 'HomeController@contato')->name('contato');
 
 Route::get('/cursos', 'HomeController@cursos')->name('cursos');
-Route::get('/curso/{nome}', 'HomeController@curso')->name('curso');
+Route::get('/curso/{id}/{slug?}', 'HomeController@curso')->name('curso');
 
 Route::get('/noticia/{id}', 'HomeController@noticia')->name('noticia');
 Route::get('/noticias', 'HomeController@noticias');

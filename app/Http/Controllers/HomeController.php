@@ -37,8 +37,23 @@ class HomeController extends Controller
     }
 
     public function aprendiz()
-    {
-        return view('site.aprendiz');
+    {   
+        $cursosAdolescentes = Cursos::where([
+                'tipo'=>'aprendizagem',
+                ['nome','like','%adole%']
+        ])->get();
+
+        $cursosJovens = Cursos::where([
+                'tipo'=>'aprendizagem',
+                ['nome','like','%jove%']
+        ])->get();
+
+
+        return view('site.aprendiz')->with([
+
+                'cursosAdolescentes'=>$cursosAdolescentes,
+                'cursosJovens'=>$cursosJovens
+        ]);
     }
 
     public function contato()
@@ -60,7 +75,11 @@ class HomeController extends Controller
 
     public function noticia($id='')
     {
-        $noticia = Noticias::find($id);
+        // $noticia = Noticias::find($id);
+        $noticia = Noticias::with('images')->get()->find($id);
+
+
+
         $lastNews = $this->lastNews();
 
 
@@ -80,12 +99,18 @@ class HomeController extends Controller
 
 
     public function cursos()
-    {
-        return Cursos::with('images')->get();
+    {   
+
+        $cursos = Cursos::where('tipo','chave')->with('images')->get();
+        return view('site.cursos')->with('cursos',$cursos);
     }
-    public function curso($nome='')
-    {
-        return Cursos::where('nome',$nome)->with('images')->get();
+
+    public function curso($id='',$slug='')
+    {   
+
+        $curso = Cursos::with('images')->get()->find($id);
+
+        return view('site.curso')->with('curso',$curso);
     }
 
     public function parceiros()

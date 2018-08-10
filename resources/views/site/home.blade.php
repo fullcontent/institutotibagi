@@ -11,8 +11,8 @@
                 </div>
                 <div>
                     <blockquote>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
-                        <footer>Someone famous</footer>
+                        <p>Um investimento no conhecimento paga o melhor interesse.</p>
+                        <footer>Benjamin Franklin</footer>
                     </blockquote>
                 </div>
             </div>
@@ -85,10 +85,15 @@
                         <p class="lead text-center">Cursos ofertados</p>
                     </div>
                 </div>
+
             </div>
             <div class="parallax-text text-center">
                 <h2 class="parallax-text">Quer ajudar a aumentar esses números?</h2>
-                <p class="lead">Sua ajuda é muito importante para nós.</p><a class="btn btn-success btn-lg" role="button" href="#">DOAR AGORA</a></div>
+                <p class="lead">Sua ajuda é muito importante para nós.</p>
+                <a class="btn btn-success btn-lg" role="button" href="#">DOAR AGORA</a>
+                <a class="btn btn-success btn-lg" role="button" href="#">CONTRATE UM APRENDIZ</a>
+
+            </div>
         </div>
     </section>
 

@@ -25,8 +25,6 @@ class NoticiasController extends Controller
     {   
 
         $noticias = Noticias::with('user','images')->get();
-
-
         return view('admin.noticias.index')->with('noticias',$noticias);
     }
 

@@ -34,14 +34,7 @@
                         </ul>
                     </li>
                     <li role="presentation"><a href="{{route('cursos')}}">Cursos CHAVE</a></li>
-                    <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" aria-expanded="false" href="#">Aprendiz <span class="caret"></span></a>
-                        <ul class="dropdown-menu" role="menu">
-                            <li role="presentation"><a href="{{route('aprendiz')}}">programas de aprendizagem</a></li>
-                            <li role="presentation"><a href="#">manual do aprendiz</a></li>
-                            <li role="presentation"><a href="#">podcast </a></li>
-                            <li role="presentation"><a href="#">contrate um aprendiz</a></li>
-                        </ul>
-                    </li>
+                    <li class="dropdown"><a href="{{route('aprendiz')}}">Aprendizes</a></li>
                     <li role="presentation"><a href="#">EmpresaS </a></li>
                     <li role="presentation"><a href="{{route('contato')}}">Contato </a></li>
                     @if (Route::has('login'))
