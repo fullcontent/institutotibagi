@@ -46,21 +46,20 @@ section#parceiros{
   display:block;
 }
 
-
 h1.text-center.equipe-cargo{
-  font-weight:100;
-  color:#00424C;
+  font-weight:800;
+  color:#f5f5f5;
   margin-top:10px;
   padding:0;
   text-transform:none;
 }
 
 h1.text-center.equipe-nome{
-  font-weight:800;
-  margin-top:10px;
+  margin-top:0px;
   font-family:'Signika';
   text-transform:none;
-  color:#00424C;
+  color:#f5f5f5;
+  font-weight:100;
 }
 
 div.col-md-2.equipe{
@@ -70,7 +69,7 @@ div.col-md-2.equipe{
 h1.ano{
   font-size:50px;
   color:#f05b5b;
-  font-family:'Signika';
+  font-family:'Raleway';
 }
 
 div.col-md-6.historico-image{
@@ -88,16 +87,17 @@ div.container-fluid.quemsomos{
 }
 
 h1.quemsomos{
-  font-family:'Roboto Condensed';
+  font-family:'Signika';
   font-size:35px;
   color:#fff;
   text-align:center;
 }
 
 h1.title{
-  font-size:40px;
-  font-family:'Signika';
+  font-size:35px;
   text-transform:none;
+  font-family:'Raleway';
+  text-transform:uppercase;
 }
 
 a.btn.btn-info.margin-left{
@@ -119,11 +119,10 @@ h1.contrate.porque{
 }
 
 h1.title.porque{
-  font-size:50px;
+  font-size:35px;
 }
 
 section.saibamais{
-  background-color:#00b0cc;
   padding:30px 0;
   margin:0;
   box-shadow:inset 0 1px 3px rgba(0,0,0,.1);
@@ -162,6 +161,15 @@ h2.title.aprendiz{
 
 footer.footer{
   margin-top:0;
+  font-size:small;
+  margin-bottom:50px;
+}
+
+footer a{
+
+  text-decoration: none;
+  color: #404040;
+
 }
 
 section#historico{
@@ -175,7 +183,7 @@ div.row.timeline{
 }
 
 section#equipe{
-  background-color:#00BBD9;
+  background-color:#f05b5b;
   padding:20px 20px;
   box-shadow:inset 0 2px 10px rgba(0,0,0,.1);
   margin:0;
@@ -183,14 +191,16 @@ section#equipe{
 
 section#reconhecimento{
   padding:30px 20px;
-  box-shadow:inset 0 1px 3px rgba(0,0,0,.1);
+  box-shadow:inset 0 2px 3px rgba(0,0,0,.1);
   margin:0;
+  background-color:#f5f5f5;
 }
 
 h1.missao{
   font-size:24px;
-  font-family:'Signika';
-  text-transform:none;
+  font-family:'Raleway';
+  text-transform:uppercase;
+  font-weight:800;
 }
 
 div.row.historico{
@@ -198,7 +208,7 @@ div.row.historico{
 }
 
 h1.text-center.title.text-white{
-  color:#00424C;
+  color:#f5f5f5;
 }
 
 div.col-md-6.contato-setor{
@@ -242,5 +252,47 @@ div.video{
   height:400px;
   overflow:hidden;
   max-width:100%;
+}
+
+div.curso{
+  margin-bottom:50px;
+  margin-top:30px;
+}
+
+img.img-fluid{
+  max-width:100%;
+  height:auto;
+}
+
+.page-row{
+  margin-bottom:30px;
+}
+
+.icone{
+  font-size:25px;
+}
+
+.tab-curso{
+  margin-top:20px;
+}
+
+ul.list-unstyled.cursos-relacionados{
+  padding:20px;
+}
+
+div.col-lg-4.col-md-5.detalhe{
+}
+
+detalheCurso{
+  background-color:#bbbbbb;
+}
+
+div.col-lg-4.col-md-5.detalheCurso{
+  background-color:#eee;
+  margin-top:20px;
+}
+
+img.img-responsive.equipe{
+  box-shadow:inset 0 1px 3px rgba(0,0,0,.1);
 }
 

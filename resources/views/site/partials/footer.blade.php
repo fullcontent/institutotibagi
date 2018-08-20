@@ -16,7 +16,7 @@
             <div class="row">
                 <div class="col-md-2 col-xs-6">
                     <div>
-                        <h4>O INSTITUTO </h4>
+                        <h4>O Instituto</h4>
                         <ul class="list-unstyled footer-list">
                             <li role="presentation" class="btn-block"><a href="{{route('sobre')}}#quemsomos">Quem somos</a></li>
                             <li role="presentation" class="btn-block"><a href="{{route('sobre')}}#equipe">Equipe </a></li>
@@ -28,7 +28,7 @@
                 </div>
                 <div class="col-md-2 col-xs-6">
                     <div>
-                        <h4>TRANSPARÊNCIA</h4>
+                        <h4>Transparência</h4>
                         <ul class="list-unstyled footer-list">
                             <li role="presentation" class="btn-block"><a href="{{route('sobre')}}#quemsomos">Editais</a></li>
                             <li role="presentation" class="btn-block"><a href="{{route('sobre')}}#quemsomos">Estatuto</a></li>
@@ -47,12 +47,12 @@
                 </div>
                 <div class="col-md-3 col-xs-12">
                     <div>
-                        <h4>eNDEREÇO </h4>
-                        <p>Rua Conselheiro Laurindo - &nbsp;nº 600 - piso 3</p>
-                        <p>CEP: 80060-100 - Centro, Curitiba - PR </p>
+                        <h4>Endereço</h4>
+                        <p>R. Cons. Laurindo, 600 piso 3 - Centro, Curitiba - PR, 800060-100</p>
+                        
                     </div>
                     <div>
-                        <h4>tELEFONE </h4>
+                        <h4>Telefones </h4>
                         <p>(41)&nbsp;3024-9848 | 3029-7393 </p>
                     </div>
                 </div>

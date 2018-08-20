@@ -36,7 +36,9 @@
                 
                 @foreach($cursos as $curso)
                 <div class="col-md-3">
-                    <div class="curso"><img src="{{asset($curso->images[0]->filename)}}" class="img-responsive" />
+                    <div class="curso">
+                        
+                        <img src="{{asset($curso->images[0]->filename)}}" class="img-responsive" />
                         <h2>{{$curso->nome}}</h2>
                         <p>{{$curso->descritivo}}</p>
                         <a href="{{route('curso', ['id'=>$curso->id, 'slug'=>str_slug($curso->nome)])}}">

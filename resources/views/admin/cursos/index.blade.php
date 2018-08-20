@@ -148,8 +148,8 @@
 
       <div class="form-group">
                   <label for="exampleInputFile">Imagem</label>
-                  <input type="file" id="exampleInputFile" name="img">
-                  <p class="help-block">Example block-level help text here.</p>
+                  <input type="file" id="exampleInputFile" name="img" required>
+                  <p class="help-block">Insira uma imagem do curso.</p>
       </div>
 
 

@@ -23,8 +23,8 @@
             <div class="collapse navbar-collapse" id="navcol-1">
                 
                 <ul class="nav navbar-nav navbar-right">
-                    <li role="presentation"><a href="{{route('home')}}">HOME </a></li>
-                    <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" aria-expanded="false" href="{{route('sobre')}}">o INSTITUTO<span class="caret"></span></a>
+                    <li role="presentation"><a href="{{route('home')}}">Home</a></li>
+                    <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" aria-expanded="false" href="{{route('sobre')}}">O Instituto<span class="caret"></span></a>
                         <ul class="dropdown-menu" role="menu">
                             <li role="presentation"><a href="{{route('sobre')}}#quemsomos">Quem somos</a></li>
                             <li role="presentation"><a href="{{route('sobre')}}#equipe">Equipe </a></li>
@@ -35,7 +35,7 @@
                     </li>
                     <li role="presentation"><a href="{{route('cursos')}}">Cursos CHAVE</a></li>
                     <li class="dropdown"><a href="{{route('aprendiz')}}">Aprendizes</a></li>
-                    <li role="presentation"><a href="#">EmpresaS </a></li>
+                    <li role="presentation"><a href="#">Empresas</a></li>
                     <li role="presentation"><a href="{{route('contato')}}">Contato </a></li>
                     @if (Route::has('login'))
                 

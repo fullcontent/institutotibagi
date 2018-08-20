@@ -16,7 +16,6 @@
 
 .navbar-nav{
   margin:30px -15px;
-  text-transform:uppercase;
   font-weight:500;
 }
 
@@ -47,16 +46,15 @@
 }
 
 .h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6{
-  font-family:'Roboto';
+  font-family:'Raleway';
   font-weight:600;
   line-height:1.1;
   color:#231f20;
   font-size:medium;
-  text-transform:uppercase;
 }
 
 body{
-  font-family:'Roboto';
+  font-family:'Raleway';
   font-size:15px;
   line-height:1.42857143;
   color:#231f20;
@@ -66,11 +64,6 @@ body{
 article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary{
   display:block;
   margin-top:20px;
-}
-
-ul.list-unstyled.footer-list{
-  font-family:'Roboto';
-  font-size:small;
 }
 
 span.footer-icons{
@@ -151,8 +144,3 @@ section.porque{
   padding:30px 0;
 }
 
-.no-padding{
-
-  padding-left: 0;
-  padding-right: 0;
-}

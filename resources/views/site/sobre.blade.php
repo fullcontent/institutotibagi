@@ -18,19 +18,19 @@
             </div>
         </div>
     </section>
-    <section>
+<section>
         <div class="container">
             <div class="col-md-4">
-                <h1 class="missao">Missão <i class="glyphicon glyphicon-screenshot"></i></h1>
-                <p>Proporcionar aos jovens uma educação de qualidade como forma de inserção social. Auxiliá-los a se tornarem autônomos, cientes de seus direitos e deveres, capazes de definir seu projeto de vida e de transformá-lo em verdade. </p>
+                <h1 class="text-center missao">Missão </h1>
+                <p class="text-center">Proporcionar aos jovens uma educação de qualidade como forma de inserção social. Auxiliá-los a se tornarem autônomos, cientes de seus direitos e deveres, capazes de definir seu projeto de vida e de transformá-lo em verdade. </p>
             </div>
             <div class="col-md-4">
-                <h1 class="missao">Visão <i class="glyphicon glyphicon-eye-open"></i></h1>
-                <p>Ser reconhecido como centro de referência de qualificação profissional e inclusão social no Estado do Paraná. </p>
+                <h1 class="text-center missao">Visão </h1>
+                <p class="text-center">Ser reconhecido como centro de referência de qualificação profissional e inclusão social no Estado do Paraná. </p>
             </div>
             <div class="col-md-4">
-                <h1 class="missao">Valores <i class="glyphicon glyphicon-star"></i></h1>
-                <p>Em todas as nossas relações, sejam de ordem pessoal ou profissional, prezamos pela lealdade e pelo respeito ao próximo, e isso passamos para a nossa equipe e alunos. </p>
+                <h1 class="text-center missao">Valores </h1>
+                <p class="text-center">Em todas as nossas relações, sejam de ordem pessoal ou profissional, prezamos pela lealdade e pelo respeito ao próximo, e isso passamos para a nossa equipe e alunos. </p>
             </div>
         </div>
     </section>
@@ -38,21 +38,20 @@
         <div class="container">
             <h1 class="text-center title">Um pouco da nossa história</h1>
             <div class="row historico">
-
-                <div class="col-md-6">
+                <div class="col-md-4 col-md-offset-1">
+                    <p class="text-right">Fundado em 1995 o Instituto&nbsp;Tibagi é uma organização social que desenvolve e implementa programas educacionais na área industrial para&nbsp;adolescentes e jovens em condições de vulnerabilidade social e econômica. </p>
+                    <p class="text-right">O programa de aprendizagem do Instituto&nbsp;Tibagi desenvolvido na área industrial garante uma formação técnica profissionalizante completa onde o aprendiz&nbsp;realiza 1.600 horas de formação sendo, 480 &nbsp;horas de conteúdo teórico
+                        e 1.120 horas de prática dentro da empresa. </p>
+                </div>
+                <div class="col-md-6 col-md-offset-0">
                     <iframe width="450" height="250" allowfullscreen="" frameborder="0" src="https://www.youtube.com/embed/Ie0VQQglOjY?controls=0&amp;showinfo=0&amp;rel=0"></iframe>
                 </div>
-                <div class="col-md-6">
-                    <p>Fundado em 1995 o Instituto&nbsp;Tibagi é uma organização social que desenvolve e implementa programas educacionais na área industrial para&nbsp;adolescentes e jovens em condições de vulnerabilidade social e econômica. </p>
-                    <p>O programa de aprendizagem do Instituto&nbsp;Tibagi desenvolvido na área industrial garante uma formação técnica profissionalizante completa onde o aprendiz&nbsp;<strong>realiza 1.600 horas de formação sendo, 480 &nbsp;horas de conteúdo teórico e 1.120 horas de prática dentro da empresa.</strong>                        </p>
-                </div>
-                
             </div>
             <hr>
             <div class="row timeline">
                 <div class="col-md-6 col-sm-5">
-                    <h1 class="ano">2015 </h1>
-                    <p>São 20 anos de experiência com ensino profissionalizante, desde a formação da Escola Técnica Tibagi. Com quase 12 anos como Instituto Tibagi, a Instituição conta com o Título de Utilidade Pública Municipal nº 11.948, Estadual nº 15.328
+                    <h1 class="text-right ano">2015 </h1>
+                    <p class="text-right">São 20 anos de experiência com ensino profissionalizante, desde a formação da Escola Técnica Tibagi. Com quase 12 anos como Instituto Tibagi, a Instituição conta com o Título de Utilidade Pública Municipal nº 11.948, Estadual nº 15.328
                         e registro no Ministério do Trabalho e Emprego. </p>
                 </div>
                 <div class="col-md-6 col-sm-5 historico-image"><img src="assets/img/Foto-Ettibagi-5.jpg" class="img-responsive"></div>
@@ -73,8 +72,8 @@
             </div>
             <div class="row timeline">
                 <div class="col-md-6 col-sm-5">
-                    <h1 class="ano">2003 </h1>
-                    <p>Após diversos estudos, definiu-se a criação de uma Associação de Pessoas com o nome de Instituto. Em 06 de maio de 2003 foi fundado, assim, o Instituto Tibagi, sociedade civil sem fins lucrativos. </p>
+                    <h1 class="text-right ano">2003 </h1>
+                    <p class="text-right">Após diversos estudos, definiu-se a criação de uma Associação de Pessoas com o nome de Instituto. Em 06 de maio de 2003 foi fundado, assim, o Instituto Tibagi, sociedade civil sem fins lucrativos. </p>
                 </div>
                 <div class="col-md-6 col-sm-5 historico-image"><img src="assets/img/DSC01409.jpg" class="img-responsive"></div>
                 <div class="col-md-12">
@@ -95,10 +94,12 @@
         <div class="container">
             <h1 class="text-center title text-white">Quem faz isso acontecer</h1>
             
+            @for($i=0;$i<4;$i++)
             <div class="col-md-2 col-sm-4 equipe"><img src="assets/img/WEBPEDALADA-SOCIAL-GIULIANO-GOMES-07-1024x885.jpg" class="img-responsive">
                 <h1 class="text-center equipe-cargo">Fundador </h1>
-                <h1 class="text-center equipe-nome">Édio Furlanetto</h1></div>
+                <h1 class="text-center equipe-nome">Édio Furlanetto</h1></div>@endfor
         </div>
+        
     </section>
     <section id="reconhecimento">
         <div class="container">
