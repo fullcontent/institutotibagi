@@ -34,7 +34,7 @@
                             
                         </ul>
                     </li>
-                    <li role="presentation"><a href="{{route('cursos')}}">Cursos CHAVE</a></li>
+                    <li role="presentation"><a href="{{route('cursos')}}">Cursos Abertos</a></li>
                     <li class="dropdown"><a href="{{route('aprendiz')}}">Aprendizes</a></li>
                     <li role="presentation"><a href="{{route('empresas')}}">Empresas</a></li>
                     <li role="presentation"><a href="{{route('contato')}}">Contato </a></li>

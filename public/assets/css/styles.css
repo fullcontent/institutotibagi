@@ -38,7 +38,7 @@ div.line.yellow{
 }
 
 h1.title.text-center{
-  padding-bottom:20px;
+  padding-bottom:40px;
 }
 
 section#parceiros{
@@ -97,7 +97,6 @@ h1.title{
   font-size:35px;
   text-transform:none;
   font-family:'Raleway';
-  
 }
 
 a.btn.btn-info.margin-left{
@@ -141,7 +140,7 @@ div.col-md-4.saibamais{
 }
 
 section.formacoes{
-  background-color:#f5f5f5;
+  background-color:#00b0cc;
   padding:30px 0;
   margin:0;
   box-shadow:inset 0 1px 3px rgba(0,0,0,.1);
@@ -163,13 +162,6 @@ footer.footer{
   margin-top:0;
   font-size:small;
   margin-bottom:50px;
-}
-
-footer a{
-
-  text-decoration: none;
-  color: #404040;
-
 }
 
 section#historico{
@@ -294,5 +286,165 @@ div.col-lg-4.col-md-5.detalheCurso{
 
 img.img-responsive.equipe{
   box-shadow:inset 0 1px 3px rgba(0,0,0,.1);
+}
+
+h1.botao{
+  font-size:40px;
+  color:#fff;
+}
+
+span.botao{
+  font-weight:800;
+  text-transform:uppercase;
+  clear:both;
+  display:block;
+  font-size:20px;
+}
+
+p.botao{
+  width:100px;
+  font-size:50px;
+}
+
+p.subtitulo{
+  font-size:20px;
+}
+
+h1.title.white{
+  color:#fff;
+}
+
+.panel-default > .panel-heading{
+  color:#17454C;
+  background-color:#fff;
+  border-color:#fff;
+}
+
+p.subtitulo.white{
+  color:white;
+}
+
+section.faq{
+  background-color:#f5f5f5;
+  padding:30px 0;
+  margin:0;
+  box-shadow:inset 0 1px 3px rgba(0,0,0,.1);
+}
+
+h1.ganha{
+  font-size:40px;
+  font-family:'Signika';
+}
+
+.icon-ganha{
+  font-size:60px;
+}
+
+.list-ganha{
+  font-size:18px;
+  line-height:1.8;
+}
+
+div.row.sociedade-ganha{
+  margin-bottom:40px;
+}
+
+li.list-ganha{
+  margin-bottom:20px;
+}
+
+ol, ul{
+  margin-top:0;
+  margin-bottom:10px;
+}
+
+.color-red{
+  color:#f05b5b;
+}
+
+color-blue{
+}
+
+.color-blue{
+  color:#00b0cc;
+}
+
+.color-yellow{
+  color:#ffca05;
+}
+
+.text-white{
+  color:white;
+}
+
+div.texto-ganha{
+  width:70%;
+}
+
+.lista{
+  line-height:2;
+}
+
+.curso{
+  font-size:23px;
+  margin:0;
+  margin-bottom:20px;
+}
+
+.left{
+  font-size:16px;
+  text-align:center;
+  width:50%;
+  float:left;
+}
+
+.right{
+  float:left;
+  display:inline-block;
+  width:50%;
+}
+
+.cursoLista{
+  font-size:16px;
+  height:120px;
+  overflow:hidden;
+}
+
+.cursoBox{
+  border:1px
+solid #E5E5E5;
+  padding:0;
+  margin-top:20px;
+}
+
+.cursoInner{
+  padding:20px;
+}
+
+div.cursoBtn{
+  width:100%;
+  text-align:center;
+  margin-top:50px;
+}
+
+div.image a{
+  vertical-align:middle;
+  display:table-cell;
+}
+
+div.image{
+  position:relative;
+  height:200px;
+  overflow:hidden;
+  width:100%;
+}
+
+div.image img{
+  position:absolute;
+  top:50%;
+  left:50%;
+  transform:translate(-50%, -50%);
+  -webkit-transform:translate(-50%,-50%);
+  -ms-transform:translate(-50%,-50%);
 }
 

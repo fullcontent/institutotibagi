@@ -2,8 +2,8 @@
 
 	
 	<section id="quemsomos">
-        <div class="container-fluid quemsomos">
-            <h1 class="quemsomos">Há mais de 20 anos inserindo jovens em situação de vulnerabilidade social no mercado de trabalho. </h1></div>
+        <div class="container-fluid quemsomos" style="background-image:url(assets/img/Foto-Ettibagi-5.jpg);">
+            <h1 class="quemsomos">Há mais de 20 anos inserindo jovens em situação de vulnerabilidade social no mercado de trabalho </h1></div>
         <div class="container-fluid lines">
             <div class="row lines">
                 <div class="col-md-4 col-xs-4 lines">

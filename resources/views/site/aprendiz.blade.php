@@ -1,8 +1,8 @@
 @include('site.partials.header')
 
 <section id="quemsomos">
-        <div class="container-fluid quemsomos">
-            <h1 class="quemsomos">há mais de 20 anos inserindo jovens em situação de vulnerabilidade social no mercado de trabalho.</h1></div>
+         <div class="container-fluid quemsomos" style="background-image:url(assets/img/BannerAprendizes.png);">
+            <h1 class="quemsomos">Jovem, dê seu próximo passo!</h1></div>
         <div class="container-fluid lines">
             <div class="row lines">
                 <div class="col-md-4 col-xs-4 lines">
@@ -18,80 +18,96 @@
         </div>
     </section>
 
-	
-
+<section class="porque">
+        <div class="container">
+            <div class="col-md-4 col-sm-4"><img src="assets/img/btn-quero.png" class="img-responsive"></div>
+            <div class="col-md-4 col-sm-4"><img src="assets/img/btn-sou.png" class="img-responsive"></div>
+            <div class="col-md-4 col-sm-4"><img src="assets/img/btn-souex.png" class="img-responsive"></div>
+        </div>
+    </section>
     <section class="formacoes">
-    <div class="container">
-        <div class="row">
-            <div class="col-md-7 col-sm-6">
-                <div>
-                    <h1 class="title">Adolescente Aprendiz</h1>
-                    <p>Destinado a adolescentes de 14 a 17 anos incompletos.</p>
-                    <div class="col-md-10 no-padding">
-                        <div role="tablist" aria-multiselectable="true" class="panel-group" id="accordion-1">
-                           
-                            @foreach($cursosAdolescentes as $c)
-                            <div class="panel panel-default">
-                                <div role="tab" class="panel-heading">
-                                    <h4 class="panel-title"><a role="button" data-toggle="collapse" data-parent="#accordion-1" aria-expanded="false" href="#accordion-1 .item-{{$c->id}}">{{$c->nome}}</a></h4></div>
-                                
-                                <div role="tabpanel" class="panel-collapse collapse item-{{$c->id}}">
-                                    <div class="panel-body">
-                                        <p>{{$c->descritivo}}</p>
-                                        <a class="btn btn-success" role="button" href="{{route('curso', ['id'=>$c->id, 'slug'=>str_slug($c->nome)])}}">Saiba mais</a></div>
-                                        
-                                </div>
+        <div class="container">
+            <div class="col-md-5 col-sm-6">
+                <h1 class="title white">Adolescente Aprendiz</h1>
+                <p class="subtitulo white">Para adolescentes de 14 a 17 anos incompletos.</p>
+                <div class="panel-group" role="tablist" aria-multiselectable="true" id="accordion-1">
+                    
+
+                    @foreach($cursosAdolescentes as $c)       
+            
+                    <div class="panel panel-default">
+                        <div class="panel-heading" role="tab">
+                            <h4 class="panel-title"><a role="button" data-toggle="collapse" data-parent="#accordion-1" aria-expanded="false" href="#accordion-1 .item-{{$c->id}}">{{$c->nome}}</a></h4></div>
+                        <div class="panel-collapse collapse item-{{$c->id}}" role="tabpanel">
+                            <div class="panel-body">
+                                <p>{{$c->descritivo}}</p>
+                                <a href="{{route('curso',$c->id)}}" class="btn btn-success">Saiba mais</a>
                             </div>
-                            @endforeach
                         </div>
                     </div>
-                </div>
-                <div>
-                    <h1 class="title">Jovem Aprendiz</h1>
-                    <p>Destinado a jovens de 18 a 22 anos.</p>
-                    <div class="col-md-10 no-padding">
-                        <div role="tablist" aria-multiselectable="true" class="panel-group" id="accordion-2">
-                            @foreach($cursosJovens as $c2)
-                            <div class="panel panel-default">
-                                <div role="tab" class="panel-heading">
-                                    <h4 class="panel-title"><a role="button" data-toggle="collapse" data-parent="#accordion-2" aria-expanded="false" href="#accordion-2 .item-{{$c2->id}}">{{$c2->nome}}</a></h4></div>
-                                
-                                <div role="tabpanel" class="panel-collapse collapse item-{{$c2->id}}">
-                                    <div class="panel-body">
-                                        <p>{{$c2->descritivo}}</p>
-                                        <a class="btn btn-success" role="button" href="{{route('curso', ['id'=>$c2->id, 'slug'=>str_slug($c2->nome)])}}">Saiba mais</a></div>
-                                        
-                                </div>
-                            </div>
-                            @endforeach
-                        </div>
-                    </div>
+
+                    @endforeach
+
+
+                    
                 </div>
             </div>
-            <div class="col-md-5">
-                <h1 class="title">Legislação </h1>
-                <p>Tivemos, em 01/05/1943, a primeira Lei de aprendizagem (nº 5.452), pela qual somente o Sistema S podia fazer a formação teórica.Em 19 de dezembro de 2000 foi sancionada a nova lei, nº10.097, posteriormente regulamentada pelo decreto nº
-                    5.598, de 1º de dezembro de 2005, e com as diretrizes curriculares estabelecidas na Portaria MTE nº 615, de 13 de dezembro de 2007, reformulada pelas portarias 723/04/12 e 1005/07/2013. </p>
-                <h1>A LEI FOI CRIADA COM AS SEGUINTES INTENÇÕES: </h1>
-                <ul>
-                    <li>Erradicação do trabalho infantil </li>
-                    <li>Redução da evasão escolar </li>
-                    <li>Erradicação da pobreza </li>
-                    <li>Melhoria da qualificação profissional </li>
-                    <li>Efetivação do primeiro emprego </li>
-                </ul>
-                <p>Leia o texto completo da <a href="http://institutotibagi.org.br/wp-content/uploads/2015/05/LeiDeAprendizagem_L10097.pdf">Lei de Aprendizagem</a> </p>
+
+
+            <div class="col-md-6 col-md-push-1 col-sm-6">
+                <h1 class="title white">Jovem Aprendiz</h1>
+                <p class="subtitulo white">Destinado aos jovens de 18 a 24 anos incompletos. </p>
+                <div class="panel-group" role="tablist" aria-multiselectable="true" id="accordion-2">
+                     @foreach($cursosJovens as $j)       
+            
+                    <div class="panel panel-default">
+                        <div class="panel-heading" role="tab">
+                            <h4 class="panel-title"><a role="button" data-toggle="collapse" data-parent="#accordion-2" aria-expanded="false" href="#accordion-2 .item-{{$j->id}}">{{$j->nome}}</a></h4></div>
+                        <div class="panel-collapse collapse item-{{$j->id}}" role="tabpanel">
+                            <div class="panel-body">
+                                <p>{{$j->descritivo}}</p>
+                                <a href="{{route('curso',$j->id)}}" class="btn btn-success">Saiba mais</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    @endforeach
             </div>
         </div>
-    </div>
-</section>
-
-
+    </section>
+    <section class="faq">
+        <div class="container">
+            <h1 class="text-center title">Dúvidas frequentes</h1>
+            <div class="panel-group" role="tablist" aria-multiselectable="true" id="accordion-3">
+                <div class="panel panel-default">
+                    <div class="panel-heading" role="tab">
+                        <h4 class="panel-title"><a role="button" data-toggle="collapse" data-parent="#accordion-3" aria-expanded="false" href="#accordion-3 .item-1"><strong>Como me candidatar a uma vaga de aprendiz?</strong> </a></h4></div>
+                    <div class="panel-collapse collapse item-1" role="tabpanel">
+                        <div class="panel-body"><span>As vagas de aprendiz são para adolescentes de 14 a 21&nbsp;anos, residentes em Curitiba ou Região Metropolitana. O cadastro é feito exclusivamente aqui, pelo nosso site. </span></div>
+                    </div>
+                </div>
+                <div class="panel panel-default">
+                    <div class="panel-heading" role="tab">
+                        <h4 class="panel-title"><a role="button" data-toggle="collapse" data-parent="#accordion-3" aria-expanded="false" href="#accordion-3 .item-2"><strong>Qual a escolaridade necessária?</strong> </a></h4></div>
+                    <div class="panel-collapse collapse item-2" role="tabpanel">
+                        <div class="panel-body"><span>Estar cursando o Ensino Médio ou concluindo o Ensino Fundamental. </span></div>
+                    </div>
+                </div>
+                <div class="panel panel-default">
+                    <div class="panel-heading" role="tab">
+                        <h4 class="panel-title"><a role="button" data-toggle="collapse" data-parent="#accordion-3" aria-expanded="true" href="#accordion-3 .item-3"><strong>Qual a renda familiar mínima?</strong> </a></h4></div>
+                    <div class="panel-collapse collapse in item-3" role="tabpanel">
+                        <div class="panel-body"><span>Para participar, a renda familiar deverá ser de até 03 (três) salários mínimos regionais. (Que esteja diretamente ligados ao sustento do adolescente). </span></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
     <section class="saibamais">
         <div class="container">
             <div class="col-md-4 col-xs-12">
                 <h1 class="title saibamais">Saiba mais</h1>
-                <p class="saibamais">Existem alguns documentos importantes para o bom relacionamento entre a empresa, o(a) aprendiz e o Instituto. </p>
+                <p class="saibamais">Conheça os documentos importantes para o bom relacionamento entre a empresa, o(a) aprendiz e o Instituto Tibagi. </p>
             </div>
             <div class="col-md-4 col-sm-6 col-xs-12 saibamais"><a class="btn btn-info btn-block btn-lg" role="button" href="#">Manual da Aprendizagem</a></div>
             <div class="col-md-4 col-sm-6 col-xs-12 saibamais"><a class="btn btn-info btn-block btn-lg" role="button" href="#">Lei de Aprendizagem</a></div>

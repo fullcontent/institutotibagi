@@ -26,7 +26,8 @@
             @if(count($curso->images))
             <div class="col-md-12 no-padding" style="height: 150px; overflow: hidden;">
                 @foreach($curso->images as $i)
-                <img src="{{asset($i->filename)}}" class="img-responsive" />
+                <div class="image">
+                <img src="{{asset($i->filename)}}" class="img-responsive center-block" /></div>
                 @endforeach
             </div>
             @endif
