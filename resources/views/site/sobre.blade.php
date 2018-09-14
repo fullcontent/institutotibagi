@@ -3,7 +3,7 @@
 	
 	<section id="quemsomos">
         <div class="container-fluid quemsomos">
-            <h1 class="quemsomos">há mais de 20 anos inserindo jovens em situação de vulnerabilidade social no mercado de trabalho. </h1></div>
+            <h1 class="quemsomos">Há mais de 20 anos inserindo jovens em situação de vulnerabilidade social no mercado de trabalho. </h1></div>
         <div class="container-fluid lines">
             <div class="row lines">
                 <div class="col-md-4 col-xs-4 lines">
@@ -34,6 +34,8 @@
             </div>
         </div>
     </section>
+
+ 
     <section id="historico">
         <div class="container">
             <h1 class="text-center title">Um pouco da nossa história</h1>
@@ -64,7 +66,7 @@
                 <div class="col-md-6 col-sm-5">
                     <h1 class="ano">2005 </h1>
                     <p>Neste ano, foi iniciada a primeira turma de Eletroeletrônica. Desde lá, foram concluídas, até dezembro de 2014, 19 turmas de aprendizes nas áreas de eletroeletrônica, auxiliar administrativo, operador de produção industrial, eletromecânica
-                        e manutenção automotiva. </p>
+                        e manutenção automotiva.</p>
                 </div>
                 <div class="col-md-12">
                     <hr>

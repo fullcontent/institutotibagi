@@ -6,9 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Layout</title>
     <link rel="stylesheet" href="{{asset('assets/bootstrap/css/bootstrap.min.css')}}">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto|Roboto+Condensed">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto|Roboto+Condensed">
+   <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Signika">
+
     <link rel="stylesheet" href="{{asset('assets/fonts/font-awesome.min.css')}}">
     <link rel="stylesheet" href="{{asset('assets/css/styles.css')}}">
     <link rel="stylesheet" href="{{asset('assets/css/user.css')}}">
@@ -27,15 +27,16 @@
                     <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" aria-expanded="false" href="{{route('sobre')}}">O Instituto<span class="caret"></span></a>
                         <ul class="dropdown-menu" role="menu">
                             <li role="presentation"><a href="{{route('sobre')}}#quemsomos">Quem somos</a></li>
+                            <li role="presentation"><a href="{{route('sobre')}}#estrutura">Estrutura</a></li>
                             <li role="presentation"><a href="{{route('sobre')}}#equipe">Equipe </a></li>
-                            <li role="presentation"><a href="{{route('sobre')}}#historico">histórico </a></li>
+                            <li role="presentation"><a href="{{route('sobre')}}#historico">Histórico </a></li>
                             <li role="presentation"><a href="{{route('sobre')}}#reconhecimento">Selos e certificações</a></li>
                             
                         </ul>
                     </li>
                     <li role="presentation"><a href="{{route('cursos')}}">Cursos CHAVE</a></li>
                     <li class="dropdown"><a href="{{route('aprendiz')}}">Aprendizes</a></li>
-                    <li role="presentation"><a href="#">Empresas</a></li>
+                    <li role="presentation"><a href="{{route('empresas')}}">Empresas</a></li>
                     <li role="presentation"><a href="{{route('contato')}}">Contato </a></li>
                     @if (Route::has('login'))
                 

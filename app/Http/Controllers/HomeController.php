@@ -49,11 +49,21 @@ class HomeController extends Controller
         ])->get();
 
 
+
+        
+
         return view('site.aprendiz')->with([
 
                 'cursosAdolescentes'=>$cursosAdolescentes,
                 'cursosJovens'=>$cursosJovens
         ]);
+
+
+    }
+
+    public function empresas()
+    {
+        return view('site.empresas');
     }
 
     public function contato()

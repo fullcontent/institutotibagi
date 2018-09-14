@@ -70,7 +70,7 @@
     
 
                         <div role="tabpanel" class="tab-pane active tab-curso" id="tab-3">
-                            <p> (Possibilidade de documentos serem encaminhados como arquivo escaneados pelo site)DOCUMENTOS OBRIGATÓRIOS - Trazer originais e fotocópias. </p>
+                            <p>(Possibilidade de documentos serem encaminhados como arquivo escaneados pelo site)</p>
                             <ul>
                                 <li>RG e CPF </li>
                                 <li>Carteira de Trabalho </li>
@@ -89,7 +89,7 @@
     </div>
     <div class="col-lg-4 col-md-5">
         <div class="page-row">
-            <h3>inscrição </h3>
+            <h3>Inscrição </h3>
             <p>Para participar do processo seletivo do programa Adolescente Aprendiz em Eletroeletrônica o candidato deverá cadastrar-se no link abaixo. Após ter preenchido corretamente seu cadastro deverá aguardar a abertura do edital e convocação via e-mail.</p>
             <a
             class="btn btn-success btn-block btn-lg" role="button" href="#">Inscreva-se </a>
@@ -104,12 +104,7 @@
             <p><i class="glyphicon glyphicon-earphone"></i> (41) 3024-9848 | 3029-7393</p>
             <p><i class="fa fa-envelope-o"></i> cursos@institutotibagi.com.br</p>
         </div>
-        <div class="page-row">
-            <h3><a href="{{route('cursos')}}">Cursos relacionados</a></h3>
-            <ul class="list-unstyled cursos-relacionados">
-                <li><a href=""><i class="fa fa-book icone"></i> Curso relacionado</a></li>
-            </ul>
-        </div>
+        
     </div>
 </div>
 
