@@ -1,8 +1,9 @@
 @include('site.partials.header')
 
 <section id="quemsomos">
-        <div class="container-fluid quemsomos" style="background-image:url(assets/img/BannerEmpresas.png);">
-            <h1 class="quemsomos">Por que contratar aprendizes?</h1></div>
+        <div class="container-fluid quemsomos" style="background-image:url({{asset("assets/img/")}}/BannerEmpresas.png);">
+        <h1 class="quemsomos">Por quê contratar aprendizes?</h1>
+    </div>
         <div class="container-fluid lines">
             <div class="row lines">
                 <div class="col-md-4 col-xs-4 lines">
@@ -29,9 +30,11 @@
                 </div>
                 <div class="col-md-4 list-ganha">
                     <ul>
-                        <li>Grande oportunidade para execução de programas de Responsabilidade Social </li>
+
+                        <li>Oportunidade para execução de programas de Responsabilidade Social </li>
                         <li>Possibilidade de moldar o Aprendiz de acordo com seus critérios éticos e cultura organizacional </li>
                         <li>Economia de custos com contratação e desligamentos, pois todo processo seletivo é feito pela Instituição. </li>
+                        <li>Oportunidade de ter um profissional qualificado e alinhado com a cultura da sua empresa</li>
                     </ul>
                 </div>
                 <div class="col-md-4 list-ganha">
@@ -50,6 +53,7 @@
                 </div>
                 <div class="col-md-4 list-ganha">
                     <ul>
+                        <li>Formação, inclusão e autonomia do jovem que se transforma em protagonista de sua própria história.</li>
                         <li>Inclusão social </li>
                         <li>Oportunidade de trabalho mesmo sem ter experiência </li>
                         <li>Acesso a Educação Profissional </li>
@@ -75,13 +79,21 @@
                 </div>
                 <div class="col-md-4 list-ganha">
                     <ul>
+
                         <li>Profissionais mais bem preparados </li>
                         <li>Diminuição da pobreza</li>
                         <li>Menor participação de jovens em situação deviolência e uso de drogas </li>
-                        <li>Melhoria da qualidade de vida&nbsp; </li>
+                        
+
                     </ul>
                 </div>
-                <div class="col-md-4 list-ganha"></div>
+                <div class="col-md-4 list-ganha">
+                    <ul>
+                        <li>Melhoria da qualidade de vida da família do aprendiz </li>
+                        <li>Mais que uma obrigação legal, contratar um Aprendiz é um ato de cidadania</li>
+                    </ul>
+                    
+                </div>
             </div>
         </div>
     </section>
@@ -93,13 +105,13 @@
             </div>
             <div class="col-md-7">
                 <ul class="lista text-white">
-                    <li>Facilitar a integração do Aprendiz na área de atuação </li>
-                    <li>Apresentar a estrutura e funcionamento da empresa </li>
-                    <li>Ser facilitador na aquisição de informações e conhecimentos da área</li>
-                    <li>Orientar e garantir cumprimento de todas as etapas do Programa de Aprendizagem, fornecendo informações adicionais e esclarecendo dúvidas </li>
-                    <li>Fazer acompanhamento do desempenho e comportamento do Aprendiz, identificando pontos fortes e de melhoria </li>
-                    <li>Fornecer feedbacks constantes, propondo ações para desenvolvimento profissional do Aprendiz </li>
-                    <li>Solicitar o boletim escolar para acompanhamento do ensino regular. </li>
+                    <li>Facilitar a integração do Aprendiz na área de atuação;</li>
+                    <li>Apresentar a estrutura e funcionamento da empresa;</li>
+                    <li>Ser facilitador na aquisição de informações e conhecimentos da área;</li>
+                    <li>Orientar e garantir cumprimento de todas as etapas do Programa de Aprendizagem, fornecendo informações adicionais e esclarecendo dúvidas;</li>
+                    <li>Fazer acompanhamento do desempenho e comportamento do Aprendiz, identificando pontos fortes e de melhoria;</li>
+                    <li>Fornecer feedbacks constantes, propondo ações para desenvolvimento profissional do Aprendiz;</li>
+                    <li>Solicitar o boletim escolar para acompanhamento do ensino regular.</li>
                 </ul>
             </div>
         </div>

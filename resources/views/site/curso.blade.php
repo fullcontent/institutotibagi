@@ -20,16 +20,17 @@
 
 <div class="container">
     <div class="page-header">
-        <h1>{{$curso->nome}} <small>Detalhes do curso</small></h1></div>
-    <div class="col-lg-8 col-md-7">
+        <h1>{{$curso->nome}}</h1></div>
+    <div class="col-lg-7 col-md-7">
+        
         <article>
             @if(count($curso->images))
-            <div class="col-md-12 no-padding" style="height: 150px; overflow: hidden;">
+            
                 @foreach($curso->images as $i)
-                <div class="image">
-                <img src="{{asset($i->filename)}}" class="img-responsive center-block" /></div>
+                <div class="col-md-12 image">
+                <img src="{{asset($i->filename)}}" class="img-responsive" /></div>
                 @endforeach
-            </div>
+            
             @endif
 
             @if($curso->criterios)
@@ -48,7 +49,7 @@
 
 
             <div class="page-row">
-                <div>
+                <div class="col-md-12">
                     <ul class="nav nav-tabs nav-justified">
 
                         @if($curso->ementa)<li><a href="#tab-1" role="tab" data-toggle="tab">Ementa </a></li>@endif
@@ -88,10 +89,10 @@
             </div>
         </article>
     </div>
-    <div class="col-lg-4 col-md-5">
+    <div class="col-lg-5 col-md-5">
         <div class="page-row">
             <h3>Inscrição </h3>
-            <p>Para participar do processo seletivo do programa Adolescente Aprendiz em Eletroeletrônica o candidato deverá cadastrar-se no link abaixo. Após ter preenchido corretamente seu cadastro deverá aguardar a abertura do edital e convocação via e-mail.</p>
+            <p>Para participar do processo seletivo do {{$curso->nome}} o candidato deverá cadastrar-se no link abaixo. Após ter preenchido corretamente seu cadastro deverá aguardar a abertura do edital e convocação via e-mail.</p>
             <a
             class="btn btn-success btn-block btn-lg" role="button" href="#">Inscreva-se </a>
         </div>
@@ -109,4 +110,6 @@
     </div>
 </div>
 
+
+@include('site.partials.doe')
 @include('site.partials.footer')

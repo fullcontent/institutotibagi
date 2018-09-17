@@ -86,7 +86,9 @@ class HomeController extends Controller
     public function noticia($id='')
     {
         // $noticia = Noticias::find($id);
-        $noticia = Noticias::with('images')->get()->find($id);
+        $noticia = Noticias::with(['images'=> function($query){
+            $query->where('post_type','=','noticia');
+        }])->get()->find($id);
 
 
 
@@ -103,8 +105,10 @@ class HomeController extends Controller
 
     public function noticias()
     {
-        $post = Noticias::all();
-        return $post;
+        $post = Noticias::with(['images'=> function($query){
+            $query->where('post_type','=','noticia');
+        }])->get();
+        dd($post);
     }
 
 

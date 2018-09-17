@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Layout</title>
+    <title>Instituto Tibagi</title>
     <link rel="stylesheet" href="{{asset('assets/bootstrap/css/bootstrap.min.css')}}">
    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Signika">
@@ -12,6 +12,11 @@
     <link rel="stylesheet" href="{{asset('assets/fonts/font-awesome.min.css')}}">
     <link rel="stylesheet" href="{{asset('assets/css/styles.css')}}">
     <link rel="stylesheet" href="{{asset('assets/css/user.css')}}">
+    <link rel="stylesheet" href="{{asset('assets/css/parceiros-slider.css')}}">
+<script src="https://code.jquery.com/jquery-2.2.0.min.js" type="text/javascript"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.js"></script>
+
+
 </head>
 <body>
     <nav class="navbar navbar-default navbar-fixed-top">
@@ -27,7 +32,7 @@
                     <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" aria-expanded="false" href="{{route('sobre')}}">O Instituto<span class="caret"></span></a>
                         <ul class="dropdown-menu" role="menu">
                             <li role="presentation"><a href="{{route('sobre')}}#quemsomos">Quem somos</a></li>
-                            <li role="presentation"><a href="{{route('sobre')}}#estrutura">Estrutura</a></li>
+                            
                             <li role="presentation"><a href="{{route('sobre')}}#equipe">Equipe </a></li>
                             <li role="presentation"><a href="{{route('sobre')}}#historico">Histórico </a></li>
                             <li role="presentation"><a href="{{route('sobre')}}#reconhecimento">Selos e certificações</a></li>

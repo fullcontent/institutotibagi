@@ -2,7 +2,7 @@
 
 
 <section id="quemsomos">
-     <div class="container-fluid quemsomos" style="background-image:url(assets/img/BannerCursos.png);">
+    <div class="container-fluid quemsomos" style="background-image:url({{asset("assets/img/")}}/BannerCursos.png);">
         <h1 class="quemsomos">Aprenda, atualize-se, profissionalize-se!</h1>
     </div>
     <div class="container-fluid lines">

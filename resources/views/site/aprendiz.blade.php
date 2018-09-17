@@ -1,8 +1,9 @@
 @include('site.partials.header')
 
 <section id="quemsomos">
-         <div class="container-fluid quemsomos" style="background-image:url(assets/img/BannerAprendizes.png);">
-            <h1 class="quemsomos">Jovem, dê seu próximo passo!</h1></div>
+        <div class="container-fluid quemsomos" style="background-image:url({{asset("assets/img/")}}/BannerAprendizes.png);">
+        <h1 class="quemsomos">Jovem, dê seu próximo passo!</h1>
+    </div>
         <div class="container-fluid lines">
             <div class="row lines">
                 <div class="col-md-4 col-xs-4 lines">
@@ -41,7 +42,7 @@
                         <div class="panel-collapse collapse item-{{$c->id}}" role="tabpanel">
                             <div class="panel-body">
                                 <p>{{$c->descritivo}}</p>
-                                <a href="{{route('curso',$c->id)}}" class="btn btn-success">Saiba mais</a>
+                                <a href="{{route('curso', ['id'=>$c->id, 'slug'=>str_slug($c->nome)])}}" class="btn btn-large btn-success">Saiba mais</a>
                             </div>
                         </div>
                     </div>
@@ -66,7 +67,7 @@
                         <div class="panel-collapse collapse item-{{$j->id}}" role="tabpanel">
                             <div class="panel-body">
                                 <p>{{$j->descritivo}}</p>
-                                <a href="{{route('curso',$j->id)}}" class="btn btn-success">Saiba mais</a>
+                                <a href="{{route('curso', ['id'=>$j->id, 'slug'=>str_slug($j->nome)])}}" class="btn btn-large btn-success">Saiba mais</a>
                             </div>
                         </div>
                     </div>
@@ -95,7 +96,7 @@
                 </div>
                 <div class="panel panel-default">
                     <div class="panel-heading" role="tab">
-                        <h4 class="panel-title"><a role="button" data-toggle="collapse" data-parent="#accordion-3" aria-expanded="true" href="#accordion-3 .item-3"><strong>Qual a renda familiar mínima?</strong> </a></h4></div>
+                        <h4 class="panel-title"><a role="button" data-toggle="collapse" data-parent="#accordion-3" aria-expanded="false" href="#accordion-3 .item-3"><strong>Qual a renda familiar mínima?</strong> </a></h4></div>
                     <div class="panel-collapse collapse in item-3" role="tabpanel">
                         <div class="panel-body"><span>Para participar, a renda familiar deverá ser de até 03 (três) salários mínimos regionais. (Que esteja diretamente ligados ao sustento do adolescente). </span></div>
                     </div>

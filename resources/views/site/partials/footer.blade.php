@@ -21,8 +21,8 @@
                             <li role="presentation" class="btn-block"><a href="{{route('sobre')}}#quemsomos">Quem somos</a></li>
                             <li role="presentation" class="btn-block"><a href="{{route('sobre')}}#equipe">Equipe </a></li>
                             <li role="presentation" class="btn-block"><a href="{{route('sobre')}}#historico">Histórico </a></li>
-                            <li role="presentation" class="btn-block"><a href="{{route('sobre')}}#reconhecimento">Selos e certificações</a></li>
-                            <li role="presentation" class="btn-block"><a href="{{route('sobre')}}#infos">Seja um doador</a></li>
+                            <li role="presentation" class="btn-block"><a href="{{route('sobre')}}#reconhecimento">Reconhecimento</a></li>
+                            
                         </ul>
                     </div>
                 </div>
@@ -30,8 +30,8 @@
                     <div>
                         <h4>Transparência</h4>
                         <ul class="list-unstyled footer-list">
-                            <li role="presentation" class="btn-block"><a href="{{route('sobre')}}#quemsomos">Editais</a></li>
-                            <li role="presentation" class="btn-block"><a href="{{route('sobre')}}#quemsomos">Estatuto</a></li>
+                            <li role="presentation" class="btn-block"><a href="#">Editais</a></li>
+                            <li role="presentation" class="btn-block"><a href="#">Estatuto</a></li>
                             </ul>
                     </div>
                 </div>
@@ -44,6 +44,7 @@
                             <li>Podcast </li>
                         </ul>
                     </div>
+                    
                 </div>
                 <div class="col-md-3 col-xs-12">
                     <div>
@@ -69,6 +70,7 @@
     </footer>
     <script src="{{asset('assets/js/jquery.min.js')}}"></script>
     <script src="{{asset('assets/bootstrap/js/bootstrap.min.js')}}"></script>
+    <script src="{{asset('assets/js/slick.js')}}"></script>
 </body>
 
 </html>

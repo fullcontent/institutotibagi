@@ -22,9 +22,7 @@
                 @foreach($noticias as $noticia)
                 <div class="noticia">
                     <div class="col-md-12 col-sm-12 col-xs-12">
-                        <a href="noticia/{{$noticia->id}}">
-                            <p>{{$noticia->title}}</p>
-                        </a>
+                        <a href="{{route('noticia', ['id'=>$noticia->id, 'slug'=>str_slug($noticia->title)])}}" class="link">{{$noticia->title}}</a>
                         
                     </div>
                 </div>
@@ -35,19 +33,49 @@
         <div class="container">
             <h1 class="text-center title">Nossos parceiros</h1>
             
+<script language="javascript">
+    
+$(document).ready(function(){
+            $('.customer-logos').slick({
+                slidesToShow: 8,
+                slidesToScroll: 2,
+                autoplay: true,
+                autoplaySpeed: 1000,
+                arrows: false,
+                dots: false,
+                    pauseOnHover: false,
+                    responsive: [{
+                    breakpoint: 768,
+                    settings: {
+                        slidesToShow: 3
+                    }
+                }, {
+                    breakpoint: 520,
+                    settings: {
+                        slidesToShow: 2
+                    }
+                }]
+            });
+        });
+
+</script>
+
+            
+
+
+
             @php 
 
                 $files = File::allFiles(public_path('uploads/parceiros'));
-                
-
-
-
+            
             @endphp
+
+
+            <div class="customer-logos">
             @foreach ($files as $file)
 
+            <div class="slide">
             
-            <div class="col-md-3 col-sm-2 col-xs-2" style="height: 100px;">
-                    
                     <a href="#" class="thumbnail" style="border: none;">
                     <img src="uploads/parceiros/{{$file->getFilename()}}" class="img-responsive" style="max-height: 70px; width: auto;">
                     </a>
@@ -61,40 +89,6 @@
         </div>
     </section>
     
-    <section id="doe">
-        <div class="container-fluid status parallax">
-            <div class="row">
-                <div class="col-md-4">
-                    <div class="text-center">
-                        <div class="icon"><i class="fa fa-users"></i></div>
-                        <div class="counter"><span class="timer">+ de 400 </span></div>
-                        <p class="lead text-center">Alunos formados</p>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="text-center">
-                        <div class="icon"><i class="fa fa-building-o"></i><i class="fa fa-building-o"></i></div>
-                        <div class="counter"><span class="timer">20 </span></div>
-                        <p class="lead text-center">Empresas atendidas</p>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="text-center">
-                        <div class="icon"><i class="fa fa-book"></i></div>
-                        <div class="counter"><span class="timer">13 </span></div>
-                        <p class="lead text-center">Cursos ofertados</p>
-                    </div>
-                </div>
-
-            </div>
-            <div class="parallax-text text-center">
-                <h2 class="parallax-text">Quer ajudar a aumentar esses números?</h2>
-                <p class="lead">Sua ajuda é muito importante para nós.</p>
-                <a class="btn btn-success btn-lg" role="button" href="#">DOAR AGORA</a>
-                <a class="btn btn-success btn-lg" role="button" href="#">CONTRATE UM APRENDIZ</a>
-
-            </div>
-        </div>
-    </section>
+    @include('site.partials.doe')
 
    @include('site.partials.footer')

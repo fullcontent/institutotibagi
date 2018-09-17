@@ -1,9 +1,12 @@
 @include('site.partials.header')
 
+
+
 	
 	<section id="quemsomos">
-        <div class="container-fluid quemsomos" style="background-image:url(assets/img/Foto-Ettibagi-5.jpg);">
-            <h1 class="quemsomos">Há mais de 20 anos inserindo jovens em situação de vulnerabilidade social no mercado de trabalho </h1></div>
+        <div class="container-fluid quemsomos" style="background-image:url({{asset("assets/img/")}}/BannerQuemSomos.png);">
+        <h1 class="quemsomos">Há mais de 20 anos inserindo jovens em situação de vulnerabilidade social no mercado de trabalho</h1>
+    </div>
         <div class="container-fluid lines">
             <div class="row lines">
                 <div class="col-md-4 col-xs-4 lines">
@@ -56,7 +59,7 @@
                     <p class="text-right">São 20 anos de experiência com ensino profissionalizante, desde a formação da Escola Técnica Tibagi. Com quase 12 anos como Instituto Tibagi, a Instituição conta com o Título de Utilidade Pública Municipal nº 11.948, Estadual nº 15.328
                         e registro no Ministério do Trabalho e Emprego. </p>
                 </div>
-                <div class="col-md-6 col-sm-5 historico-image"><img src="assets/img/Foto-Ettibagi-5.jpg" class="img-responsive"></div>
+                <div class="col-md-6 col-sm-5 historico-image"><img src="assets/img/2015.png" class="img-responsive"></div>
                 <div class="col-md-12">
                     <hr>
                 </div>
@@ -77,7 +80,7 @@
                     <h1 class="text-right ano">2003 </h1>
                     <p class="text-right">Após diversos estudos, definiu-se a criação de uma Associação de Pessoas com o nome de Instituto. Em 06 de maio de 2003 foi fundado, assim, o Instituto Tibagi, sociedade civil sem fins lucrativos. </p>
                 </div>
-                <div class="col-md-6 col-sm-5 historico-image"><img src="assets/img/DSC01409.jpg" class="img-responsive"></div>
+                <div class="col-md-6 col-sm-5 historico-image"><img src="assets/img/formatura_destacada.jpg" class="img-responsive"></div>
                 <div class="col-md-12">
                     <hr>
                 </div>
@@ -96,10 +99,96 @@
         <div class="container">
             <h1 class="text-center title text-white">Quem faz isso acontecer</h1>
             
-            @for($i=0;$i<4;$i++)
-            <div class="col-md-2 col-sm-4 equipe"><img src="assets/img/WEBPEDALADA-SOCIAL-GIULIANO-GOMES-07-1024x885.jpg" class="img-responsive">
-                <h1 class="text-center equipe-cargo">Fundador </h1>
-                <h1 class="text-center equipe-nome">Édio Furlanetto</h1></div>@endfor
+            
+            <div class="col-md-2 col-sm-4 equipe">
+                <h1 class="text-center equipe-cargo ">Édio Furlanetto</h1>
+                <h1 class="text-center equipe-nome">Diretor Presidente</h1>
+            </div>
+
+             <div class="col-md-2 col-sm-4 equipe">
+                <h1 class="text-center equipe-cargo ">Maria José Resmer</h1>
+                <h1 class="text-center equipe-nome">Diretora Administrativa</h1>
+            </div>
+
+             <div class="col-md-2 col-sm-4 equipe">
+                <h1 class="text-center equipe-cargo ">Rafael Guido Vallejos</h1>
+                <h1 class="text-center equipe-nome">Diretor Financeiro</h1>
+            </div>
+           
+
+             <div class="col-md-2 col-sm-4 equipe">
+                <h1 class="text-center equipe-cargo ">Luciane de Andrade Wamser</h1>
+                <h1 class="text-center equipe-nome">Diretora Organizacional</h1>
+            </div>
+
+            <div class="col-md-2 col-sm-4 equipe">
+                <h1 class="text-center equipe-cargo ">Regina Célia Vogliotti</h1>
+                <h1 class="text-center equipe-nome">Gestora Administrativa</h1>
+            </div>
+            
+            <div class="col-md-2 col-sm-4 equipe">
+                <h1 class="text-center equipe-cargo ">Raquel Paes Pereira</h1>
+                <h1 class="text-center equipe-nome">Financeiro e RH</h1>
+            </div>
+
+            <div class="col-md-2 col-sm-4 equipe">
+                <h1 class="text-center equipe-cargo ">Valdenize Saldanha da Silva</h1>
+                <h1 class="text-center equipe-nome">Atendimento</h1>
+            </div>
+
+            <div class="col-md-2 col-sm-4 equipe">
+                <h1 class="text-center equipe-cargo ">Roberta de Almeida Souza</h1>
+                <h1 class="text-center equipe-nome">Pedagoga</h1>
+            </div>
+            <div class="col-md-2 col-sm-4 equipe">
+                <h1 class="text-center equipe-cargo ">Francielle Silveira</h1>
+                <h1 class="text-center equipe-nome">Pedagoga</h1>
+            </div>
+
+            <div class="col-md-2 col-sm-4 equipe">
+                <h1 class="text-center equipe-cargo ">Iraci Stancki da Luz</h1>
+                <h1 class="text-center equipe-nome">Assistente Social</h1>
+            </div>
+
+            <div class="col-md-2 col-sm-4 equipe">
+                <h1 class="text-center equipe-cargo ">Aline Engman Bourscheid</h1>
+                <h1 class="text-center equipe-nome">Assistente Social</h1>
+            </div>
+
+            <div class="col-md-2 col-sm-4 equipe">
+                <h1 class="text-center equipe-cargo ">Elisangela Dellicolli</h1>
+                <h1 class="text-center equipe-nome">Assistente Social</h1>
+            </div>
+            <div class="col-md-2 col-sm-4 equipe">
+                <h1 class="text-center equipe-cargo ">Aline Carneiro Fidelis</h1>
+                <h1 class="text-center equipe-nome">Estagiária de Comunicação</h1>
+            </div>
+            <div class="col-md-2 col-sm-4 equipe">
+                <h1 class="text-center equipe-cargo ">Franciele Fernandes dos Santos</h1>
+                <h1 class="text-center equipe-nome">Estagiária de Pedagogia</h1>
+            </div>
+
+             <div class="col-md-2 col-sm-4 equipe">
+                <h1 class="text-center equipe-cargo ">Aldino Beal</h1>
+                <h1 class="text-center equipe-nome">Conselheiro Fiscal</h1>
+            </div>
+            <div class="col-md-2 col-sm-4 equipe">
+                <h1 class="text-center equipe-cargo ">Nicolau Afonso Barth</h1>
+                <h1 class="text-center equipe-nome">Conselheiro Fiscal</h1>
+            </div>
+            <div class="col-md-2 col-sm-4 equipe">
+                <h1 class="text-center equipe-cargo ">João Batista da Rosa</h1>
+                <h1 class="text-center equipe-nome">Conselheiro Fiscal</h1>
+            </div>
+            
+
+
+
+            
+
+
+
+
         </div>
         
     </section>

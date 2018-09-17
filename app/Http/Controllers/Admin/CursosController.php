@@ -118,7 +118,7 @@ class CursosController extends Controller
     {
         
 
-            
+                           
 
             \Session::flash('msg', "Curso editado com sucesso!");
             return redirect(route('cursos.index')); 

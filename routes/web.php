@@ -20,23 +20,11 @@ Route::get('/contato', 'HomeController@contato')->name('contato');
 Route::get('/cursos', 'HomeController@cursos')->name('cursos');
 Route::get('/curso/{id}/{slug?}', 'HomeController@curso')->name('curso');
 
-Route::get('/noticia/{id}', 'HomeController@noticia')->name('noticia');
+Route::get('/noticia/{id}/{slug?}', 'HomeController@noticia')->name('noticia');
 Route::get('/noticias', 'HomeController@noticias');
 
 
-Route::get('/parceiros', function() {
 
-	$files = File::allFiles(public_path('uploads/parceiros'));
-
-
-	
-
-foreach ($files as $file)
-{
-   dd($file);
-}
-
-});
 
 Auth::routes();
 

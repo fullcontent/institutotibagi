@@ -64,6 +64,7 @@ h1.text-center.equipe-nome{
 
 div.col-md-2.equipe{
   margin-top:10px;
+  height: 100px;
 }
 
 h1.ano{
@@ -73,9 +74,24 @@ h1.ano{
 }
 
 div.col-md-6.historico-image{
-  max-height:200px;
+  max-height:300px;
   overflow:hidden;
+  position: relative;
+  height: 300px;
 }
+
+div.col-md-6.historico-image img{
+
+  position:absolute;
+  top:50%;
+  left:50%;
+  transform:translate(-50%, -50%);
+  -webkit-transform:translate(-50%,-50%);
+  -ms-transform:translate(-50%,-50%);
+  
+}
+
+
 
 div.container-fluid.quemsomos{
   background-color:#666;
@@ -272,18 +288,6 @@ ul.list-unstyled.cursos-relacionados{
   padding:20px;
 }
 
-div.col-lg-4.col-md-5.detalhe{
-}
-
-detalheCurso{
-  background-color:#bbbbbb;
-}
-
-div.col-lg-4.col-md-5.detalheCurso{
-  background-color:#eee;
-  margin-top:20px;
-}
-
 img.img-responsive.equipe{
   box-shadow:inset 0 1px 3px rgba(0,0,0,.1);
 }
@@ -382,7 +386,12 @@ div.texto-ganha{
 }
 
 .lista{
-  line-height:2;
+  
+  font-size: 17px;
+}
+.lista li{
+
+  margin-top: 15px;
 }
 
 .curso{
@@ -427,16 +436,14 @@ div.cursoBtn{
   margin-top:50px;
 }
 
-div.image a{
-  vertical-align:middle;
-  display:table-cell;
-}
+
 
 div.image{
   position:relative;
   height:200px;
   overflow:hidden;
   width:100%;
+  margin-bottom: 40px;
 }
 
 div.image img{
@@ -446,5 +453,7 @@ div.image img{
   transform:translate(-50%, -50%);
   -webkit-transform:translate(-50%,-50%);
   -ms-transform:translate(-50%,-50%);
+  opacity: 0.6;
+  background-color: #000;
 }
 
