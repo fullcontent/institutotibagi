@@ -21,7 +21,7 @@
 
 <section class="porque">
         <div class="container">
-            <div class="col-md-4 col-sm-4"><img src="assets/img/btn-quero.png" class="img-responsive"></div>
+            <div class="col-md-4 col-sm-4"><a href="#faq"><img src="assets/img/btn-quero.png" class="img-responsive"></a></div>
             <div class="col-md-4 col-sm-4"><img src="assets/img/btn-sou.png" class="img-responsive"></div>
             <div class="col-md-4 col-sm-4"><img src="assets/img/btn-souex.png" class="img-responsive"></div>
         </div>
@@ -76,7 +76,7 @@
             </div>
         </div>
     </section>
-    <section class="faq">
+    <section class="faq" id="faq">
         <div class="container">
             <h1 class="text-center title">Dúvidas frequentes</h1>
             <div class="panel-group" role="tablist" aria-multiselectable="true" id="accordion-3">

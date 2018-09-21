@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Instituto Tibagi</title>
+    <title>Instituto Tibagi -  Cursos de aprendizagem para jovens e adolescentes</title>
     <link rel="stylesheet" href="{{asset('assets/bootstrap/css/bootstrap.min.css')}}">
    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Signika">
@@ -15,6 +15,20 @@
     <link rel="stylesheet" href="{{asset('assets/css/parceiros-slider.css')}}">
 <script src="https://code.jquery.com/jquery-2.2.0.min.js" type="text/javascript"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.js"></script>
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-76881273-1"></script>
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-76881273-2"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-76881273-2');
+</script>
+
 
 
 </head>
@@ -43,18 +57,7 @@
                     <li class="dropdown"><a href="{{route('aprendiz')}}">Aprendizes</a></li>
                     <li role="presentation"><a href="{{route('empresas')}}">Empresas</a></li>
                     <li role="presentation"><a href="{{route('contato')}}">Contato </a></li>
-                    @if (Route::has('login'))
-                
-                    @auth
-
-                    <li role="presentation"><a href="{{ url('/admin') }}">Admin</a></li>
-                        
-                    @else
-                        <li role="presentation"><a href="{{ route('login') }}">Login</a></li>
-                        <li role="presentation"><a href="{{ route('register') }}">Register</a></li>
-                    @endauth
-                
-            @endif
+                   
                 </ul>
                 
 
