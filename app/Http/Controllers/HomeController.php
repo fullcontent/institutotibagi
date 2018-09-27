@@ -6,6 +6,8 @@ use Illuminate\Http\Request;
 use App\Models\Noticias;
 use App\Models\Cursos;
 
+use Mail;
+
 
 
 
@@ -66,10 +68,51 @@ class HomeController extends Controller
         return view('site.empresas');
     }
 
+    
     public function contato()
     {
         return view('site.contato');
     }
+
+    public function contatoSEND(Request $request)
+    {   
+
+
+        $data = array(
+            'email' => $request->email,
+            'nome' => $request->nome,
+            'telefone' => $request->telefone,
+            'subject' => 'Contato através do site!',
+            'mensagem' => $request->mensagem,
+        );
+        
+
+
+        // return view('emails.contato')->with('data',$data);
+        
+        $mail = Mail::send('emails.contato', $data, function($message) use ($data){
+
+                $message->from($data['email'],$data['nome']);
+                $message->to('noreply@institutotibagi.org.br');
+                $message->subject($data['subject']);
+
+        });
+
+
+        if (Mail::failures()) {
+         
+        return redirect()->route('contato')
+        ->with('error','Ops! Aconteceu alguma coisa errada, tente de novo!');
+
+        }
+
+
+        return back()->with('success','Email enviado com sucesso!');
+   
+    }
+
+
+
 
 
 

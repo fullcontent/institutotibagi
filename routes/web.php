@@ -15,7 +15,14 @@ Route::get('/', 'HomeController@index')->name('home');
 Route::get('/sobre', 'HomeController@sobre')->name('sobre');
 Route::get('/aprendiz', 'HomeController@aprendiz')->name('aprendiz');
 Route::get('/empresas', 'HomeController@empresas')->name('empresas');
+
+
 Route::get('/contato', 'HomeController@contato')->name('contato');
+Route::post('/contato', 'HomeController@contatoSEND')->name('contatoSEND');
+
+
+
+
 
 Route::get('/cursos', 'HomeController@cursos')->name('cursos');
 Route::get('/curso/{id}/{slug?}', 'HomeController@curso')->name('curso');
@@ -36,6 +43,6 @@ Route::get('/admin', 'AdminController@index');
 Route::resource('/admin/usuarios', 'Admin\UsuariosController');
 Route::resource('/admin/noticias','Admin\NoticiasController');
 Route::resource('/admin/cursos','Admin\CursosController');
-Route::resource('/admin/parceiros','Admin\ParceirosController');
+
 
 

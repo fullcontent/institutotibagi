@@ -1,8 +1,9 @@
 @include('site.partials.header')
 
 <section id="quemsomos">
-        <div class="container-fluid quemsomos">
-            <h1 class="quemsomos">há mais de 20 anos inserindo jovens em situação de vulnerabilidade social no mercado de trabalho.</h1></div>
+        <div class="container-fluid quemsomos" style="background-image:url({{asset("assets/img/")}}/BannerContato.png);">
+        <h1 class="quemsomos">Vamos conversar!</h1>
+    </div>
         <div class="container-fluid lines">
             <div class="row lines">
                 <div class="col-md-4 col-xs-4 lines">
@@ -17,12 +18,28 @@
             </div>
         </div>
     </section>
-
 	
 <section>
         <div class="container">
             <div class="col-md-7">
-                <form class="bootstrap-form-with-validation">
+
+            @if ($message = Session::get('success'))
+                <div class="alert alert-success alert-block">
+                    <button type="button" class="close" data-dismiss="alert">×</button> 
+                        <strong>{{ $message }}</strong>
+                </div>
+            @endif
+
+            @if ($message = Session::get('error'))
+            <div class="alert alert-danger alert-block">
+                <button type="button" class="close" data-dismiss="alert">×</button> 
+                     <strong>{{ $message }}</strong>
+                 </div>
+            @endif
+
+                <form class="bootstrap-form-with-validation" action="{{ route('contatoSEND')}}" method="POST">
+
+                    {{ csrf_field() }}
                     <h2 class="text-center">Entre em contato conosco</h2>
                     <div class="form-group">
                         <label class="control-label" for="text-input">Nome </label>
@@ -30,7 +47,7 @@
                     </div>
                     <div class="form-group">
                         <label class="control-label" for="telefone">Telefone </label>
-                        <input class="form-control" type="email" name="telefone" id="telefone">
+                        <input class="form-control" type="text" name="telefone" id="telefone">
                     </div>
                     <div class="form-group">
                         <label class="control-label" for="email">Email</label>
