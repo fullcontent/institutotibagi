@@ -63,10 +63,12 @@
                 </form>
             </div>
             <div class="col-md-5">
-                <iframe allowfullscreen="" frameborder="0" width="100%" height="300" src="https://www.google.com/maps/embed/v1/place?key=AIzaSyAaON2hZV-1j3ZHNVcsblsvoVfbkuvshFM&amp;q=Instituto+Tibagi&amp;zoom=10"></iframe>
+                <iframe allowfullscreen="" frameborder="0" width="100%" height="300" src="https://www.google.com/maps/embed/v1/place?key=AIzaSyAaON2hZV-1j3ZHNVcsblsvoVfbkuvshFM&amp;q=Instituto+Tibagi&amp;zoom=13"></iframe>
+                <a href="https://goo.gl/maps/EhxEHuADz112" target="_blank">
                 <p>Rua Conselheiro Laurindo - &nbsp;nº 600 - piso 3&nbsp;</p>
                 <p>CEP: 80060-100 - Centro, Curitiba - PR&nbsp; </p>
                 <p>(41) 3024-9848 | 3029-7393&nbsp; </p>
+            </a>
             </div>
         </div>
     </section>
@@ -77,8 +79,8 @@
                 <p>rh@institutotibagi.org.br </p>
             </div>
             <div class="col-lg-3 col-md-4 setor">
-                <h1 class="setor">Comunicação </h1><strong>Aline Kovalski Bolwerk</strong>
-                <p>comunicacao@institutotibagi.org.br comunicacao2@institutotibagi.org.br</p>
+                <h1 class="setor">Comunicação </h1><strong>Aline Fidelis</strong>
+                <p>comunicacao2@institutotibagi.org.br</p>
             </div>
             <div class="col-lg-3 col-md-4 setor">
                 <h1 class="setor">Administração / Projetos</h1><strong>Regina Vogliotti</strong>

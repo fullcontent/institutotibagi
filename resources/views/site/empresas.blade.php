@@ -119,29 +119,50 @@
     <section class="faq">
         <div class="container">
             <h1 class="text-center title">Dúvidas frequentes</h1>
-            <div class="panel-group" role="tablist" aria-multiselectable="true" id="accordion-3">
-                <div class="panel panel-default">
-                    <div class="panel-heading" role="tab">
-                        <h4 class="panel-title"><a role="button" data-toggle="collapse" data-parent="#accordion-3" aria-expanded="false" href="#accordion-3 .item-1"><strong>Como me candidatar a uma vaga de aprendiz?</strong> </a></h4></div>
-                    <div class="panel-collapse collapse item-1" role="tabpanel">
-                        <div class="panel-body"><span>As vagas de aprendiz são para adolescentes de 14 a 21&nbsp;anos, residentes em Curitiba ou Região Metropolitana. O cadastro é feito exclusivamente aqui, pelo nosso site. </span></div>
-                    </div>
-                </div>
-                <div class="panel panel-default">
-                    <div class="panel-heading" role="tab">
-                        <h4 class="panel-title"><a role="button" data-toggle="collapse" data-parent="#accordion-3" aria-expanded="false" href="#accordion-3 .item-2"><strong>Qual a escolaridade necessária?</strong> </a></h4></div>
-                    <div class="panel-collapse collapse item-2" role="tabpanel">
-                        <div class="panel-body"><span>Estar cursando o Ensino Médio ou concluindo o Ensino Fundamental. </span></div>
-                    </div>
-                </div>
-                <div class="panel panel-default">
-                    <div class="panel-heading" role="tab">
-                        <h4 class="panel-title"><a role="button" data-toggle="collapse" data-parent="#accordion-3" aria-expanded="true" href="#accordion-3 .item-3"><strong>Qual a renda familiar mínima?</strong> </a></h4></div>
-                    <div class="panel-collapse collapse in item-3" role="tabpanel">
-                        <div class="panel-body"><span>Para participar, a renda familiar deverá ser de até 03 (três) salários mínimos regionais. (Que esteja diretamente ligados ao sustento do adolescente). </span></div>
-                    </div>
-                </div>
-            </div>
+            <div role="tablist" aria-multiselectable="true" class="panel-group" id="accordion-3">
+    <div class="panel panel-default">
+        <div role="tab" class="panel-heading">
+            <h4 class="panel-title"><a role="button" data-toggle="collapse" data-parent="#accordion-3" aria-expanded="false" href="#accordion-3 .item-1"><strong>Como fica o contrato de aprendizagem em casos de afastamento em razão do ingresso do aprendiz no Serviço Militar Obrigatório, de licença-maternidade, acidente de trabalho ou auxílio-doença?</strong> </a></h4></div>
+        <div role="tabpanel" class="panel-collapse collapse item-1">
+            <div class="panel-body"><span>Esses afastamentos não constituem, por si só, causa para rescisão do contrato. Durante o período de afastamento em razão da licença-maternidade, acidente de trabalho, auxílio-doença ou serviço militar obrigatório, deverá ser recolhido o FGTS do aprendiz. Nestes casos não há necessidade da empresa substituir o aprendiz afastado. </span></div>
+        </div>
+    </div>
+    <div class="panel panel-default">
+        <div role="tab" class="panel-heading">
+            <h4 class="panel-title"><a role="button" data-toggle="collapse" data-parent="#accordion-3" aria-expanded="false" href="#accordion-3 .item-2"><strong>Como proceder no caso de efetivação do aprendiz no término de contrato?</strong> </a></h4></div>
+        <div role="tabpanel" class="panel-collapse collapse item-2">
+            <div class="panel-body"><span>Não será necessário fazer a rescisão do aprendiz, pois com a continuidade do mesmo no quadro da empresa, o contrato passa a vigorar como contrato de prazo indeterminado, com todos os direitos dele decorrentes. </span></div>
+        </div>
+    </div>
+    <div class="panel panel-default">
+        <div role="tab" class="panel-heading">
+            <h4 class="panel-title"><a role="button" data-toggle="collapse" data-parent="#accordion-3" aria-expanded="false" href="#accordion-3 .item-3"><strong>E se a efetivação ocorrer antes do prazo para o término de contrato?</strong> </a></h4></div>
+        <div role="tabpanel" class="panel-collapse collapse item-3">
+            <div class="panel-body"><span>Neste caso, primeiramente a empresa terá que fazer a rescisão de contrato uma vez que este, é um contrato especial com término determinado. A seguir a empresa tem a liberdade de firmar com o adolescente e/ou jovem contrato por prazo indeterminado. </span></div>
+        </div>
+    </div>
+    <div class="panel panel-default">
+        <div role="tab" class="panel-heading">
+            <h4 class="panel-title"><a role="button" data-toggle="collapse" data-parent="#accordion-3" aria-expanded="false" href="#accordion-3 .item-4"><strong>Como ficam as férias do aprendiz?</strong> </a></h4></div>
+        <div role="tabpanel" class="panel-collapse collapse item-4">
+            <div class="panel-body"><span>O aprendiz tem direito a férias depois de um ano de contrato, como determinado pela CLT. Devem ser simultâneas às férias escolares e do curso de aprendizagem. Se o aprendiz ainda não tiver adquirido o direito às férias, deverá manter a frequencia na empresa quando ocorrerem as férias escolares e do curso profissionalizante, desde que haja um supervisor para o acompanhar. </span></div>
+        </div>
+    </div>
+    <div class="panel panel-default">
+        <div role="tab" class="panel-heading">
+            <h4 class="panel-title"><a role="button" data-toggle="collapse" data-parent="#accordion-3" aria-expanded="false" href="#accordion-3 .item-5"><strong>O que é necessário para desligar um aprendiz?</strong> </a></h4></div>
+        <div role="tabpanel" class="panel-collapse collapse item-5">
+            <div class="panel-body"><span>Primeiramente a empresa deve comunicar a Elo qualquer eventualidade ou dificuldade que o aprendiz apresentar no seu desenvolvimento na empresa. A partir do comunicado, o aprendiz será acompanhando por sua responsável no Instituto Tibagi através de reunião individual e/ou familiar e com a empresa, e orientado a fim de que se resolvam as situações apresentadas.Em caso de não haver mudanças positivas do aprendiz e a empresa optar pelo desligamento, primeiro é necessário informar o Instituto Tibagi sobre a decisão, comunicando o motivo e a data. No dia do desligamento o aprendiz deve preencher o formulário de desligamento.Este formulário preenchido deve ser encaminhado ao Instituto Tibagi junto com uma cópia da rescisão do contrato. </span></div>
+        </div>
+    </div>
+    <div class="panel panel-default">
+        <div role="tab" class="panel-heading">
+            <h4 class="panel-title"><a role="button" data-toggle="collapse" data-parent="#accordion-3" aria-expanded="true" href="#accordion-3 .item-6"><strong>O aprendiz tem direito ao seguro-desemprego?</strong> </a></h4></div>
+        <div role="tabpanel" class="panel-collapse collapse item-6">
+            <div class="panel-body"><span>Terá direito ao seguro-desemprego o aprendiz que é desligado antecipadamente por inadaptação ou desempenho insuficiente ou ainda em razão da cessação da atividade empresarial, falecimento do empregador constituído em empresa individual. o aprendiz fará jus ao seguro-desemprego, desde que sejam preenchidos os requisitos legais para direito ao benefício. </span></div>
+        </div>
+    </div>
+</div>
         </div>
     </section>
     <section class="saibamais">
@@ -150,8 +171,13 @@
                 <h1 class="title saibamais">Saiba mais</h1>
                 <p class="saibamais">Conheça os documentos importantes para o bom relacionamento entre a empresa, o(a) aprendiz e o Instituto Tibagi. </p>
             </div>
-            <div class="col-md-4 col-sm-6 col-xs-12 saibamais"><a class="btn btn-info btn-block btn-lg" role="button" href="#">Manual da Aprendizagem</a></div>
-            <div class="col-md-4 col-sm-6 col-xs-12 saibamais"><a class="btn btn-info btn-block btn-lg" role="button" href="#">Lei de Aprendizagem</a></div>
+            <div class="col-md-4 col-sm-6 col-xs-12 saibamais">
+                <a class="btn btn-info btn-block btn-lg" role="button" href="{{asset('uploads/documentos')}}/ManualAprendizagem.pdf" target="_blank">Manual da Aprendizagem</a></div>
+            
+            <div class="col-md-4 col-sm-6 col-xs-12 saibamais">
+                <a class="btn btn-info btn-block btn-lg" role="button" href="{{asset('uploads/documentos')}}/LeiDeAprendizagem_L10097.pdf" target="_blank">Lei da Aprendizagem</a></div>
+
+                
         </div>
     </section>
 

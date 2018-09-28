@@ -72,6 +72,11 @@ span.footer-icons{
   margin-left:10px;
 }
 
+.footer-icons a{
+  text-decoration: none;
+}
+
+
 span.footer-phone{
   font-size:18px;
   vertical-align:middle;

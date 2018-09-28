@@ -55,6 +55,7 @@
                       <button type="submit" class="btn btn-danger btn-sm">Deletar</button>
 
                       <a href="{{route('cursos.edit',$curso->id)}}" class="btn btn-info btn-sm">Editar</a>
+                      <a href="{{route('cursos.duplicate', $curso->id)}}" class="btn btn-warning btn-sm">Duplicar</a>
                     </form>
                     
 

@@ -76,7 +76,7 @@ $(document).ready(function(){
 
             <div class="slide">
             
-                    <a href="#" class="thumbnail" style="border: none;">
+                    <a href="" class="thumbnail" style="border: none;">
                     <img src="uploads/parceiros/{{$file->getFilename()}}" class="img-responsive" style="max-height: 70px; width: auto;">
                     </a>
                     
@@ -89,6 +89,6 @@ $(document).ready(function(){
         </div>
     </section>
     
-    @include('site.partials.doe')
+@include('site.partials.doe')
 
    @include('site.partials.footer')

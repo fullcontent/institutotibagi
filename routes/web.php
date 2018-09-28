@@ -42,7 +42,11 @@ Route::get('/admin', 'AdminController@index');
 
 Route::resource('/admin/usuarios', 'Admin\UsuariosController');
 Route::resource('/admin/noticias','Admin\NoticiasController');
+
 Route::resource('/admin/cursos','Admin\CursosController');
+Route::get('/admin/cursos/duplicar/{id}', 'Admin\CursosController@duplicate')->name('cursos.duplicate');
+
+
 
 
 

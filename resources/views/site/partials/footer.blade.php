@@ -30,8 +30,8 @@
                     <div>
                         <h4>Transparência</h4>
                         <ul class="list-unstyled footer-list">
-                            <li role="presentation" class="btn-block"><a href="#">Editais</a></li>
-                            <li role="presentation" class="btn-block"><a href="#">Estatuto</a></li>
+                            
+                            <li role="presentation" class="btn-block"><a href="{{asset('uploads/documentos/EstatutoInstitutoTibagi.pdf')}}" target="_blank">Estatuto</a></li>
                             </ul>
                     </div>
                 </div>
@@ -39,18 +39,20 @@
                     <div>
                         <h4>Aprendiz </h4>
                         <ul class="list-unstyled footer-list">
-                            <li>Manual do aprendiz</li>
-                            <li>Contrate um aprendiz</li>
-                            <li>Podcast </li>
+                            <li><a href="{{asset('uploads/documentos')}}/ManualAprendizagem.pdf" target="_blank">Manual do aprendiz</a></li>
+                            
+                            <li><a href="https://soundcloud.com/mundodoaprendiz" target="_blank">Podcast</a></li>
                         </ul>
                     </div>
                     
                 </div>
                 <div class="col-md-3 col-xs-12">
                     <div>
+
                         <h4>Endereço</h4>
+                        <a href="https://goo.gl/maps/EhxEHuADz112" target="_blank">
                         <p>R. Cons. Laurindo, 600 piso 3 - Centro, Curitiba - PR, 800060-100</p>
-                        
+                        </a>
                     </div>
                     <div>
                         <h4>Telefones </h4>
@@ -59,7 +61,23 @@
                 </div>
                 <div class="col-md-3 col-xs-12">
                     <div>
-                        <h4>Siga-nos</h4><span class="footer-icons"><i class="fa fa-facebook-official"></i></span><span class="footer-icons"><i class="fa fa-youtube"></i></span><span class="footer-icons"><i class="fa fa-soundcloud"></i></span>
+                        <h4>Siga-nos</h4>
+                        
+                            <span class="footer-icons">
+                                <a href="https://www.facebook.com/InstitutoTibagi/" target="_blank" class="primary">
+                                    <i class="fa fa-facebook-official"></i>
+                                </a>
+                            </span>
+                        <span class="footer-icons">
+                            <a href="https://www.youtube.com/channel/UCqr69Sg4Nt1e_ITylTuoBIw" target="_blank" class="color-red">
+                                    <i class="fa fa-youtube"></i>
+                                </a>
+                        </span>
+                        <span class="footer-icons">
+                            <a href="https://soundcloud.com/mundodoaprendiz" target="_blank" class="color-yellow">
+                                    <i class="fa fa-soundcloud"></i>
+                                </a>
+                        </span>
                         
     
                     </div>

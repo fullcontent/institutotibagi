@@ -39,13 +39,13 @@
         <div class="container-fluid">
 
             @foreach($cursos as $c)
-            <div class="col-md-3 cursoBox"><img src="{{$c->images[0]->filename}}" class="img-responsive">
+            <div class="col-md-3 cursoBox"><img src="{{asset('storage/'.$c->images[0]->filename)}}" class="img-responsive">
                 <div class="cursoInner">
 
                     <h1 class="text-center curso">{{$c->nome}}</h1>
                     <p class="text-center cursoLista">{{$c->descritivo}}</p>
-                    <div class="left"><i class="glyphicon glyphicon-time"></i><span> {{$c->duracao}}</span></div>
-                    <div class="left"><i class="fa fa-money"></i><span> {{$c->investimento}}</span></div>
+                    <div class="text-center"><i class="glyphicon glyphicon-time"></i><span> {{$c->duracao}}</span></div>
+                    <div class="text-center"><i class="fa fa-money"></i><span> {{$c->investimento}}</span></div>
                     <div class="cursoBtn"><a href="{{route('curso', ['id'=>$c->id, 'slug'=>str_slug($c->nome)])}}" class="btn btn-large btn-success">Saiba mais</a></div>
                 </div>
             </div>
