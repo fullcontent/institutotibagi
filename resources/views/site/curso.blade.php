@@ -28,7 +28,7 @@
             
                 @foreach($curso->images as $i)
                 <div class="col-md-12 image">
-                <img src="{{asset($i->filename)}}" class="img-responsive" /></div>
+                <img src="{{asset('storage'.$i->filename)}}" class="img-responsive" /></div>
                 @endforeach
             
             @endif
