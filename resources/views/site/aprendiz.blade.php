@@ -21,7 +21,7 @@
 
 <section class="porque">
         <div class="container">
-            <div class="col-md-4 col-sm-4"><a href="#faq"><img src="assets/img/btn-quero.png" class="img-responsive"></a></div>
+            <div class="col-md-4 col-sm-4"><a href="{{route('aprendizQuero')}}"><img src="assets/img/btn-quero.png" class="img-responsive"></a></div>
             <div class="col-md-4 col-sm-4"><img src="assets/img/btn-sou.png" class="img-responsive"></div>
             <div class="col-md-4 col-sm-4"><img src="assets/img/btn-souex.png" class="img-responsive"></div>
         </div>

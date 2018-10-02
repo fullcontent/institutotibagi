@@ -28,7 +28,11 @@
             
                 @foreach($curso->images as $i)
                 <div class="col-md-12 image">
+<<<<<<< HEAD
                 <img src="{{asset('storage/'.$i->filename)}}" class="img-responsive" /></div>
+=======
+                <img src="{{asset('storage'.$i->filename)}}" class="img-responsive" /></div>
+>>>>>>> 858540df82caca77e6d0562c7f68192742448362
                 @endforeach
             
             @endif
