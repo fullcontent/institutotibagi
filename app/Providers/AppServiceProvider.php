@@ -57,6 +57,14 @@ class AppServiceProvider extends ServiceProvider
                 
             ]);
 
+            $event->menu->add([
+                'text'        => 'Aprendizes',
+                'url'         =>  'admin/aprendizes',
+                'icon'        => 'newspaper-o',
+                                    
+                
+            ]);
+
             
 
             $event->menu->add('CONFIGURAÇÕES DO SITE');

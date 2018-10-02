@@ -2,8 +2,8 @@
 
 
 <section id="quemsomos">
-     <div class="container-fluid quemsomos" style="background-image:url({{asset("assets/img/")}}/BannerCursos.png);">
-        <h1 class="quemsomos">Aprenda, atualize-se, profissionalize-se!</h1>
+     <div class="container-fluid quemsomos" style="background-image:url({{asset("assets/img/")}}/BannerNoticias.png);">
+        <h1 class="quemsomos">Informe-se!</h1>
     </div>
     <div class="container-fluid lines">
         <div class="row lines">
@@ -78,34 +78,5 @@
 </div>
 
 
-<section id="doe">
-        <div class="container-fluid status parallax">
-            <div class="row">
-                <div class="col-md-4">
-                    <div class="text-center">
-                        <div class="icon"><i class="fa fa-users"></i></div>
-                        <div class="counter"><span class="timer">+ de 400 </span></div>
-                        <p class="lead text-center">Alunos formados</p>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="text-center">
-                        <div class="icon"><i class="fa fa-building-o"></i><i class="fa fa-building-o"></i></div>
-                        <div class="counter"><span class="timer">20 </span></div>
-                        <p class="lead text-center">Empresas atendidas</p>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="text-center">
-                        <div class="icon"><i class="fa fa-book"></i></div>
-                        <div class="counter"><span class="timer">13 </span></div>
-                        <p class="lead text-center">Cursos ofertados</p>
-                    </div>
-                </div>
-            </div>
-            <div class="parallax-text text-center">
-                <h2 class="parallax-text">Quer ajudar a aumentar esses números?</h2>
-                <p class="lead">Sua ajuda é muito importante para nós.</p><a class="btn btn-success btn-lg" role="button" href="#">DOAR AGORA</a></div>
-        </div>
-    </section>
+@include('site.partials.doe')
 @include('site.partials.footer')
