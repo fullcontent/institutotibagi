@@ -40,6 +40,10 @@ Route::get('/noticias', 'HomeController@noticias');
 
 
 
+Route::get('/doacoes', 'HomeController@doacoes')->name('doacoes');
+
+
+
 
 Auth::routes();
 

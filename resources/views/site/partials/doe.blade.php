@@ -27,7 +27,7 @@
             <div class="parallax-text text-center">
                 <h2 class="parallax-text">Quer ajudar a aumentar esses números?</h2>
                 <p class="lead">Sua ajuda é muito importante para nós.</p>
-                <a class="btn btn-success btn-lg" role="button" href="{{route('contato')}}">DOAR AGORA</a>
+                <a class="btn btn-success btn-lg" role="button" href="{{route('doacoes')}}">DOAR AGORA</a>
                 
 
             </div>

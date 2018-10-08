@@ -245,8 +245,14 @@ class HomeController extends Controller
         foreach (\Illuminate\Support\Facades\Storage::files('parceiros') as $filename) {
         $file = \Illuminate\Support\Facades\Storage::get($filename);
     // do whatever with $file;
-}
+        }
 
+    }
+
+
+    public function doacoes()
+    {
+        return view('site.doacoes');
     }
 
 }
