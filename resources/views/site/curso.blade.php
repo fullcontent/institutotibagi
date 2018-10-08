@@ -28,11 +28,7 @@
             
                 @foreach($curso->images as $i)
                 <div class="col-md-12 image">
-<<<<<<< HEAD
                 <img src="{{asset('storage/'.$i->filename)}}" class="img-responsive" /></div>
-=======
-                <img src="{{asset('storage'.$i->filename)}}" class="img-responsive" /></div>
->>>>>>> 858540df82caca77e6d0562c7f68192742448362
                 @endforeach
             
             @endif
@@ -98,7 +94,7 @@
             <h3>Inscrição </h3>
             <p>Para participar do processo seletivo do {{$curso->nome}} o candidato deverá cadastrar-se no link abaixo. Após ter preenchido corretamente seu cadastro deverá aguardar a abertura do edital e convocação via e-mail.</p>
             <a
-            class="btn btn-success btn-block btn-lg" role="button" href="#">Inscreva-se </a>
+            class="btn btn-success btn-block btn-lg" role="button" href="{{route('aprendizQuero')}}">Inscreva-se </a>
         </div>
         <div class="page-row">
             <h3><i class="fa fa-clock-o icone"></i> {{$curso->duracao}}</h3>
