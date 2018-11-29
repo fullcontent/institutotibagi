@@ -26,6 +26,7 @@ Route::get('/noticias', 'HomeController@noticias');
 
 
 
+
 Auth::routes();
 
 
