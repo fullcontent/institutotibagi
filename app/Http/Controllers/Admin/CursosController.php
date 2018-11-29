@@ -7,6 +7,8 @@ use App\Http\Controllers\Controller;
 use App\Models\Cursos;
 use App\Models\Image;
 
+
+
 class CursosController extends Controller
 {
     /**
@@ -29,7 +31,8 @@ class CursosController extends Controller
      */
     public function create()
     {
-        //
+
+
     }
 
     /**
@@ -61,7 +64,7 @@ class CursosController extends Controller
        
         if($request->file('img'))
         {
-        $path = $request->file('img')->store('uploads','public');
+        $path = $request->file('img')->store('uploads/cursos','public');
 
         $img = new Image;
         $img->filename = $path;
@@ -117,7 +120,22 @@ class CursosController extends Controller
     public function update(Request $request, $id)
     {
         
+        $curso = Cursos::find($id);
 
+        $curso->nome = $request->nome;
+        $curso->descritivo = $request->descritivo;
+        $curso->tipo = $request->tipo;
+        $curso->duracao = $request->duracao;
+        $curso->investimento = $request->investimento;
+        $curso->criterios = $request->criterios;
+        $curso->ementa = $request->ementa;
+        $curso->area = $request->area;
+        $curso->processo = $request->processo;
+        
+        // Itens nulos por hora
+
+        $curso->local = "Instituto Tibagi";
+        $curso->save();
                            
 
             \Session::flash('msg', "Curso editado com sucesso!");
@@ -138,5 +156,24 @@ class CursosController extends Controller
 
         \Session::flash('msg', "Curso removido com sucesso!");
         return redirect(route('cursos.index'));
+    }
+
+
+     /**
+     * Show the form for creating a new resource.
+     *
+     * @return \Illuminate\Http\Response
+     */
+    public function duplicate($id)
+    {
+
+
+        
+
+        $curso = Cursos::find($id);
+        $novoCurso = $curso->replicate();
+        $novoCurso->push();
+
+        return redirect()->route('cursos.edit', [$novoCurso->id]);
     }
 }
