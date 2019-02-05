@@ -33,7 +33,7 @@
         <section></section>
     </section>
 
-
+    @if(!$cursos)
     <section id="historico">
         <h1 class="title text-center">Nossas formações</h1>
         <div class="container-fluid">
@@ -53,6 +53,7 @@
 
         </div>
     </section>
+    @endif
 
 
 
