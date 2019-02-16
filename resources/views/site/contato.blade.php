@@ -88,18 +88,12 @@
                 <h1 class="setor">Administração / Projetos</h1><strong>Regina Vogliotti</strong>
                 <p>projetos@institutotibagi.org.br </p>
             </div>
-            <div class="col-lg-3 col-md-4 setor">
-                <h1 class="setor">Pedagogia </h1><strong>Roberta Souza</strong>
-                <p>pedagogia1@institutotibagi.org.br </p>
-            </div>
+           
             <div class="col-lg-3 col-md-4 setor">
                 <h1 class="setor">Atendimento </h1><strong>Valdenize Saldanha</strong>
                 <p>contato@institutotibagi.org.br </p>
             </div>
-            <div class="col-lg-3 col-md-4 setor">
-                <h1 class="setor">Relacionamento Institucional</h1><strong>Eliane Caviquioli</strong>
-                <p>relacionamentos@institutotibagi.org.br </p>
-            </div>
+            
             <div class="col-lg-3 col-md-4 setor">
                 <h1 class="setor">Assistência Social</h1><strong>Aline Bourscheid</strong>
                 <p>servicosocial4@institutotibagi.org.br </p>

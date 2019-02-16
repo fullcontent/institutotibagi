@@ -81,7 +81,7 @@
                                 <li>Comprovante de renda familiar </li>
                                 <li>Declaração de matrícula e boletim (para quem está estudando) </li>
                                 <li>Se estiver cursando o CEBJA trazer comprovante de matrícula comas matérias que está cursando </li>
-                                <li>RG e CPF dos responsáveis </li>
+                                <li>RG e CPF dos responsáveis (caso o jovem tenha menos de 18 anos)</li>
                             </ul>
                         </div>
                     </div>
@@ -104,7 +104,7 @@
             <h3>Dúvidas sobre esse curso</h3>
             <p>Se tiver alguma dúvida sobre este curso, entre em contato conosco para que possamos ajudá-lo.</p>
             <p><i class="glyphicon glyphicon-earphone"></i> (41) 3024-9848 | 3029-7393</p>
-            <p><i class="fa fa-envelope-o"></i> cursos@institutotibagi.com.br</p>
+            <p><i class="fa fa-envelope-o"></i> contato@institutotibagi.org.br</p>
         </div>
         
     </div>
