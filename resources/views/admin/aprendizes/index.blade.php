@@ -50,7 +50,7 @@
                	<td>{{$aprendiz->nome}}</td>
                	<td>{{date('d/m/Y', strtotime($aprendiz->dataNasc))}}</td>
                	<td>{{$aprendiz->telefone}}</td>
-               	<td>{{$aprendiz->curso->nome}}</td>
+               	<td>{{$aprendiz->curso['nome']}}</td>
                 <td>{{date('d/m/Y', strtotime($aprendiz->created_at))}}</td>
                	
                </tr>
@@ -61,6 +61,7 @@
                @endforeach
                @endif
               </tbody></table>
+
             </div>
             
         </div>

@@ -53,6 +53,9 @@ class NoticiasController extends Controller
         $post->content = $request->content;
         $post->status = $request->status;
         $post->user_id = Auth::id();
+	
+
+//	dd($post);
         $post->save();
 
 

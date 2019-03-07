@@ -135,16 +135,19 @@
                 <h1 class="text-center equipe-cargo ">Valdenize Saldanha da Silva</h1>
                 <h1 class="text-center equipe-nome">Atendimento</h1>
             </div>
-
-            <div class="col-md-2 col-sm-4 equipe">
-                <h1 class="text-center equipe-cargo ">Roberta de Almeida Souza</h1>
+<div class="col-md-2 col-sm-4 equipe">
+                <h1 class="text-center equipe-cargo ">Lucimara das Graças</h1>
+                <h1 class="text-center equipe-nome">Asssitente Social</h1>
+            </div>
+<div class="col-md-2 col-sm-4 equipe">
+                <h1 class="text-center equipe-cargo ">Deleia Avital</h1>
                 <h1 class="text-center equipe-nome">Pedagoga</h1>
             </div>
-            <div class="col-md-2 col-sm-4 equipe">
-                <h1 class="text-center equipe-cargo ">Francielle Silveira</h1>
-                <h1 class="text-center equipe-nome">Pedagoga</h1>
-            </div>
 
+<div class="col-md-2 col-sm-4 equipe">
+                <h1 class="text-center equipe-cargo ">Victoria Canelo</h1>
+                <h1 class="text-center equipe-nome">Estagiária e Comunicação</h1>
+            </div>
             <div class="col-md-2 col-sm-4 equipe">
                 <h1 class="text-center equipe-cargo ">Iraci Stancki da Luz</h1>
                 <h1 class="text-center equipe-nome">Assistente Social</h1>

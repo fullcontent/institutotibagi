@@ -99,29 +99,14 @@
             </p>
             
             <h2 class="text-center">Data das próximas palestras</h2>
-            <div class="col-md-2 thumbnail" style="margin-left: 20px">
-                <h1>08/10</h1>
-                <p>14h30</p>
-            </div>
 
-             <div class="col-md-2 thumbnail" style="margin-left: 20px">
-                <h1>22/10</h1>
-                <p>14h30</p>
-            </div>
 
-             <div class="col-md-2 thumbnail" style="margin-left: 20px">
-                <h1>05/11</h1>
-                <p>14h30</p>
-            </div>
-            <div class="col-md-2 thumbnail" style="margin-left: 20px">
-                <h1>19/11</h1>
-                <p>14h30</p>
-            </div>
 
-             <div class="col-md-2 thumbnail" style="margin-left: 20px">
-                <h1>03/12</h1>
-                <p>14h30</p>
-            </div>
+
+		<div class="col-md-2 thumbnail" style="margin-left: 20px">
+		<h1>28/01</h1>
+		<p>14h30</p>
+</div>
 
             
         </div>
