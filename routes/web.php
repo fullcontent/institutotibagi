@@ -41,6 +41,8 @@ Route::get('/noticias', 'HomeController@noticias');
 
 
 Route::get('/doacoes', 'HomeController@doacoes')->name('doacoes');
+Route::get('/doacoesIR','HomeController@doacoesIR')->name('doacoesIR');
+Route::post('/doacoesIR', 'HomeController@doacoesIRSEND')->name('doacoesIRSEND');
 
 
 

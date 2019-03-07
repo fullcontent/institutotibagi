@@ -255,4 +255,50 @@ class HomeController extends Controller
         return view('site.doacoes');
     }
 
+    public function doacoesIR()
+    {
+        return view('site.doacoesIR');
+    }
+
+
+    public function doacoesIRSEND(Request $request)
+    {   
+
+
+
+
+        $data = array(
+            'email' => $request->email,
+            'nome' => $request->nome,
+            'telefone' => $request->telefone,
+            'subject' => 'Contato através do site!',
+            'mensagem' => $request->mensagem,
+        );
+        
+
+
+        // return view('emails.contato')->with('data',$data);
+        
+        $mail = Mail::send('emails.contato', $data, function($message) use ($data){
+
+                $message->from($data['email'],$data['nome']);
+                $message->to('bgc1988@gmail.com');
+
+                $message->subject($data['subject']);
+
+        });
+
+
+        if (Mail::failures()) {
+         
+        return redirect()->route('doacoesIR')
+        ->with('error','Ops! Aconteceu alguma coisa errada, tente de novo!');
+
+        }
+
+
+        return back()->with('success','Email enviado com sucesso!');
+   
+    }
+
 }

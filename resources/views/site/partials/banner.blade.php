@@ -17,8 +17,14 @@
             @foreach($files as $key => $file)
             
             <div class="item <?php if ($key <=0) { echo 'active'; } ?>">
-                <img src="uploads/banners/{{$file->getFilename()}}" alt="Slide Image" class="img-responsive" />
+                <a href="/doacoesIR">
+                <img src="uploads/banners/{{$file->getFilename()}}" alt="Slide Image" class="img-responsive" /></a>
             </div>
+
+
+
+
+
             @endforeach
         
     <div>
