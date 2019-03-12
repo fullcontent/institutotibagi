@@ -4,7 +4,7 @@
                 <div class="col-md-4">
                     <div class="text-center">
                         <div class="icon"><i class="fa fa-users"></i></div>
-                        <div class="counter"><span class="timer">+ de 1800 </span></div>
+                        <div class="counter"><span class="timer">+ de 2000 </span></div>
                         <p class="lead text-center">Alunos formados</p>
                     </div>
                 </div>

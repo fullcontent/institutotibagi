@@ -167,7 +167,7 @@
                 <h1 class="text-center equipe-nome">Estagiária de Comunicação</h1>
             </div>
             <div class="col-md-2 col-sm-4 equipe">
-                <h1 class="text-center equipe-cargo ">Franciele Fernandes dos Santos</h1>
+                <h1 class="text-center equipe-cargo ">Franciele Silveira</h1>
                 <h1 class="text-center equipe-nome">Estagiária de Pedagogia</h1>
             </div>
 

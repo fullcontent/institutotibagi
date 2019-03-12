@@ -10,15 +10,21 @@
         @endphp
 
 
-        <div class="carousel slide hidden-xs hidden-sm" data-ride="carousel" id="carousel-1">
+        <div class="carousel slide" data-ride="carousel" id="carousel-1">
         <div class="carousel-inner" role="listbox">
             
             
             @foreach($files as $key => $file)
             
             <div class="item <?php if ($key <=0) { echo 'active'; } ?>">
-                <img src="uploads/banners/{{$file->getFilename()}}" alt="Slide Image" class="img-responsive" />
+                <a href="/doacoesIR">
+                <img src="uploads/banners/{{$file->getFilename()}}" alt="Slide Image" class="img-responsive" /></a>
             </div>
+
+
+
+
+
             @endforeach
         
     <div>

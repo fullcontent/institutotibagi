@@ -9,12 +9,7 @@
                     <h2>Bem vindos ao instituto tibagi</h2>
                     <iframe width="640" height="315" allowfullscreen="" frameborder="0" src="https://www.youtube.com/embed/Ie0VQQglOjY?controls=0&amp;showinfo=0&amp;rel=0"></iframe>
                 </div>
-                <div>
-                    <blockquote>
-                        <p>Um investimento no conhecimento paga o melhor interesse.</p>
-                        <footer>Benjamin Franklin</footer>
-                    </blockquote>
-                </div>
+               
             </div>
             <div class="col-lg-4 col-lg-offset-1 col-md-5 col-sm-12 col-xs-12">
                 <h1 class="title-box">Últimas notícias</h1>

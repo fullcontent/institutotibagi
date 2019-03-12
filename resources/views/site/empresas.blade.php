@@ -24,7 +24,7 @@
         <div class="container">
             <div class="row sociedade-ganha">
                 <div class="col-md-4 empresa-ganha">
-                    <div class="icone-ganha"><i class="fa fa-puzzle-piece icon-ganha color-red"></i></div>
+                    <div class="icone-ganha"><i class="fa fa-child icon-ganha color-red"></i></div>
                     <div class="texto-ganha">
                         <h1 class="text-left ganha color-red">A empresa ganha</h1></div>
                 </div>
@@ -47,7 +47,7 @@
             <hr>
             <div class="row sociedade-ganha">
                 <div class="col-md-4 empresa-ganha">
-                    <div class="icone-ganha"><i class="fa fa-puzzle-piece icon-ganha color-blue"></i></div>
+                    <div class="icone-ganha"><i class="fa fa-child icon-ganha color-blue"></i></div>
                     <div class="texto-ganha">
                         <h1 class="text-left ganha color-blue">O aprendiz ganha</h1></div>
                 </div>
@@ -73,7 +73,7 @@
             <hr>
             <div class="row sociedade-ganha">
                 <div class="col-md-4 empresa-ganha">
-                    <div class="icone-ganha"><i class="fa fa-puzzle-piece icon-ganha color-yellow"></i></div>
+                    <div class="icone-ganha"><i class="fa fa-child icon-ganha color-yellow"></i></div>
                     <div class="texto-ganha">
                         <h1 class="text-left ganha color-yellow">A sociedade ganha</h1></div>
                 </div>

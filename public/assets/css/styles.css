@@ -1,471 +1,508 @@
-div.col-md-4.line-blue{
-  height:5px;
+div.col-md-4.line-blue {
+  height: 5px;
 }
 
-div.line-blue{
-  background-color:#00b0cc;
+div.line-blue {
+  background-color: #00b0cc;
 }
 
-div.line-yellow{
-  background-color:#ffca05;
+div.line-yellow {
+  background-color: #ffca05;
 }
 
-div.line-red{
-  background-color:#f05b5b;
+div.line-red {
+  background-color: #f05b5b;
 }
 
-div.line{
-  height:4px;
+div.line {
+  height: 4px;
 }
 
-div.col-md-4.lines{
-  padding-left:0;
-  padding-right:0;
-  margin-left:0;
-  margin-right:0;
+div.col-md-4.lines {
+  padding-left: 0;
+  padding-right: 0;
+  margin-left: 0;
+  margin-right: 0;
 }
 
-div.line.red{
-  background-color:#f05b5b;
+div.line.red {
+  background-color: #f05b5b;
 }
 
-div.line.blue{
-  background-color:#00b0cc;
+div.line.blue {
+  background-color: #00b0cc;
 }
 
-div.line.yellow{
-  background-color:#ffca05;
+div.line.yellow {
+  background-color: #ffca05;
 }
 
-h1.title.text-center{
-  padding-bottom:40px;
+h1.title.text-center {
+  padding-bottom: 40px;
 }
 
-section#parceiros{
-  margin-top:20px;
-  display:block;
+section#parceiros {
+  margin-top: 20px;
+  display: block;
 }
 
-h1.text-center.equipe-cargo{
-  font-weight:800;
-  color:#f5f5f5;
-  margin-top:10px;
-  padding:0;
-  text-transform:none;
+h1.text-center.equipe-cargo {
+  font-weight: 800;
+  color: #f5f5f5;
+  margin-top: 10px;
+  padding: 0;
+  text-transform: none;
 }
 
-h1.text-center.equipe-nome{
-  margin-top:0px;
-  font-family:'Signika';
-  text-transform:none;
-  color:#f5f5f5;
-  font-weight:100;
+h1.text-center.equipe-nome {
+  margin-top: 0px;
+  font-family: 'Signika';
+  text-transform: none;
+  color: #f5f5f5;
+  font-weight: 100;
 }
 
-div.col-md-2.equipe{
-  margin-top:10px;
-  height: 100px;
+div.col-md-2.equipe {
+  margin-top: 10px;
 }
 
-h1.ano{
-  font-size:50px;
-  color:#f05b5b;
-  font-family:'Raleway';
+h1.ano {
+  font-size: 50px;
+  color: #f05b5b;
+  font-family: 'Raleway';
 }
 
-div.col-md-6.historico-image{
-  max-height:300px;
-  overflow:hidden;
+div.col-md-6.historico-image {
+  max-height: 200px;
+  overflow: hidden;
+}
+
+div.container-fluid.quemsomos {
+  background-color: #666;
+  padding: 50px 150px;
+  background-image: url(../../assets/img/jens-johnsson-121807-unsplash.jpg);
+  background-repeat: no-repeat;
+  background-position: 50%;
+  background-size: cover;
+}
+
+h1.quemsomos {
+  font-family: 'Signika';
+  font-size: 35px;
+  color: #fff;
+  text-align: center;
+}
+
+h1.title {
+  font-size: 35px;
+  text-transform: none;
+  font-family: 'Raleway';
+}
+
+a.btn.btn-info.margin-left {
+  margin-left: 20px;
+}
+
+div.container-fluid.lines {
+  padding-bottom: 20px;
+}
+
+h1.contrate.porque {
+  font-family: 'Signika';
+  font-size: 42px;
+  text-transform: none;
+}
+
+h1.contrate.porque {
+  font-family: 'Signika';
+}
+
+h1.title.porque {
+  font-size: 35px;
+}
+
+section.saibamais {
+  padding: 30px 0;
+  margin: 0;
+  box-shadow: inset 0 1px 3px rgba(0,0,0,.1);
+}
+
+h1.title.saibamais {
+  color: #17454C;
+}
+
+p.saibamais {
+  color: #00424C;
+}
+
+div.col-md-4.saibamais {
+  margin-top: 3em;
+}
+
+section.formacoes {
+  background-color: #00b0cc;
+  padding: 30px 0;
+  margin: 0;
+  box-shadow: inset 0 1px 3px rgba(0,0,0,.1);
+}
+
+p.text-white {
+  color: #fff;
+}
+
+h1.title.aprendiz {
+  color: #fff;
+}
+
+h2.title.aprendiz {
+  color: #fff;
+}
+
+footer.footer {
+  margin-top: 0;
+  font-size: small;
+  margin-bottom: 50px;
+}
+
+section#historico {
+  padding: 50px 20px;
+  background-color: #f5f5f5;
+  box-shadow: inset 0 1px 3px rgba(0,0,0,.1);
+}
+
+div.row.timeline {
+  padding: 50px 100px;
+}
+
+section.equipe {
+  background-color: #f05b5b;
+  padding: 50px 0;
+  box-shadow: inset 0 2px 10px rgba(0,0,0,.1);
+  margin: 0;
+}
+
+section#equipe {
+  background-color: #f05b5b;
+  padding: 20px 20px;
+  box-shadow: inset 0 2px 10px rgba(0,0,0,.1);
+  margin: 0;
+}
+
+section#reconhecimento {
+  padding: 30px 20px;
+  box-shadow: inset 0 2px 3px rgba(0,0,0,.1);
+  margin: 0;
+  background-color: #f5f5f5;
+}
+
+h1.missao {
+  font-size: 24px;
+  font-family: 'Raleway';
+  text-transform: uppercase;
+  font-weight: 800;
+}
+
+div.row.historico {
+  padding: 50px 10px;
+}
+
+h1.text-center.title.text-white {
+  color: #f5f5f5;
+}
+
+div.col-md-6.contato-setor {
+  height: 150px;
+}
+
+section.setores {
+  background-color: #f5f5f5;
+  padding: 40px;
+  box-shadow: inset 0 1px 3px rgba(0,0,0,.1);
+}
+
+div.col-md-3.setor {
+  color: #404040;
+}
+
+h1.setor {
+  color: #404040;
+  font-family: 'Signika';
+  text-transform: none;
+  font-size: 20px;
+}
+
+div.col-lg-3.col-md-4.setor {
+  color: #404040;
+  height: 150px;
+  padding: 20px 0px;
+}
+
+.carousel-inner {
   position: relative;
-  height: 300px;
+  width: 100%;
+  overflow: hidden;
 }
 
-div.col-md-6.historico-image img{
-
-  position:absolute;
-  top:50%;
-  left:50%;
-  transform:translate(-50%, -50%);
-  -webkit-transform:translate(-50%,-50%);
-  -ms-transform:translate(-50%,-50%);
-  
-}
-
-
-
-div.container-fluid.quemsomos{
-  background-color:#666;
-  padding:50px 150px;
-  background-image:url(../../assets/img/Foto-Ettibagi-5.jpg);
-  background-repeat:no-repeat;
-  background-position:50%;
-  background-size:cover;
-}
-
-h1.quemsomos{
-  font-family:'Signika';
-  font-size:35px;
-  color:#fff;
-  text-align:center;
-}
-
-h1.title{
-  font-size:35px;
-  text-transform:none;
-  font-family:'Raleway';
-}
-
-a.btn.btn-info.margin-left{
-  margin-left:20px;
-}
-
-div.container-fluid.lines{
-  padding-bottom:20px;
-}
-
-h1.contrate.porque{
-  font-family:'Signika';
-  font-size:42px;
-  text-transform:none;
-}
-
-h1.contrate.porque{
-  font-family:'Signika';
-}
-
-h1.title.porque{
-  font-size:35px;
-}
-
-section.saibamais{
-  padding:30px 0;
-  margin:0;
-  box-shadow:inset 0 1px 3px rgba(0,0,0,.1);
-}
-
-h1.title.saibamais{
-  color:#17454C;
-}
-
-p.saibamais{
-  color:#00424C;
-}
-
-div.col-md-4.saibamais{
-  margin-top:3em;
-}
-
-section.formacoes{
-  background-color:#00b0cc;
-  padding:30px 0;
-  margin:0;
-  box-shadow:inset 0 1px 3px rgba(0,0,0,.1);
-}
-
-p.text-white{
-  color:#fff;
-}
-
-h1.title.aprendiz{
-  color:#fff;
-}
-
-h2.title.aprendiz{
-  color:#fff;
-}
-
-footer.footer{
-  margin-top:0;
-  font-size:small;
-  margin-bottom:50px;
-}
-
-section#historico{
-  padding:50px 20px;
-  background-color:#f5f5f5;
-  box-shadow:inset 0 1px 3px rgba(0,0,0,.1);
-}
-section.historico{
-  padding:50px 20px;
-  background-color:#f5f5f5;
-  box-shadow:inset 0 1px 3px rgba(0,0,0,.1);
-}
-
-div.row.timeline{
-  padding:50px 100px;
-}
-
-section#equipe{
-  background-color:#f05b5b;
-  padding:20px 20px;
-  box-shadow:inset 0 2px 10px rgba(0,0,0,.1);
-  margin:0;
-}
-
-section.equipe{
-  background-color:#f05b5b;
-  padding:20px 20px;
-  box-shadow:inset 0 2px 10px rgba(0,0,0,.1);
-  margin:0;
-}
-
-section#reconhecimento{
-  padding:30px 20px;
-  box-shadow:inset 0 2px 3px rgba(0,0,0,.1);
-  margin:0;
-  background-color:#f5f5f5;
-}
-
-h1.missao{
-  font-size:24px;
-  font-family:'Raleway';
-  text-transform:uppercase;
-  font-weight:800;
+div.img-responsive.video {
+  height: 400px;
 }
 
-div.row.historico{
-  padding:50px 10px;
+div.video {
+  height: 400px;
+  overflow: hidden;
+  max-width: 100%;
 }
 
-h1.text-center.title.text-white{
-  color:#f5f5f5;
+div.curso {
+  margin-bottom: 50px;
+  margin-top: 30px;
 }
 
-div.col-md-6.contato-setor{
-  height:150px;
+img.img-fluid {
+  max-width: 100%;
+  height: auto;
 }
 
-section.setores{
-  background-color:#f5f5f5;
-  padding:40px;
-  box-shadow:inset 0 1px 3px rgba(0,0,0,.1);
+.page-row {
+  margin-bottom: 30px;
 }
 
-div.col-md-3.setor{
-  color:#404040;
+.icone {
+  font-size: 25px;
 }
 
-h1.setor{
-  color:#404040;
-  font-family:'Signika';
-  text-transform:none;
-  font-size:20px;
+.tab-curso {
+  margin-top: 20px;
 }
 
-div.col-lg-3.col-md-4.setor{
-  color:#404040;
-  height:150px;
-  padding:20px 0px;
+ul.list-unstyled.cursos-relacionados {
+  padding: 20px;
 }
 
-.carousel-inner{
-  position:relative;
-  width:100%;
-  overflow:hidden;
+div.col-lg-4.col-md-5.detalhe {
 }
 
-div.img-responsive.video{
-  height:400px;
+detalheCurso {
+  background-color: #bbbbbb;
 }
 
-div.video{
-  height:400px;
-  overflow:hidden;
-  max-width:100%;
+div.col-lg-4.col-md-5.detalheCurso {
+  background-color: #eee;
+  margin-top: 20px;
 }
 
-div.curso{
-  margin-bottom:50px;
-  margin-top:30px;
+img.img-responsive.equipe {
+  box-shadow: inset 0 1px 3px rgba(0,0,0,.1);
 }
 
-img.img-fluid{
-  max-width:100%;
-  height:auto;
+h1.botao {
+  font-size: 40px;
+  color: #fff;
 }
 
-.page-row{
-  margin-bottom:30px;
+span.botao {
+  font-weight: 800;
+  text-transform: uppercase;
+  clear: both;
+  display: block;
+  font-size: 20px;
 }
 
-.icone{
-  font-size:25px;
+p.botao {
+  width: 100px;
+  font-size: 50px;
 }
 
-.tab-curso{
-  margin-top:20px;
+p.subtitulo {
+  font-size: 20px;
 }
 
-ul.list-unstyled.cursos-relacionados{
-  padding:20px;
+h1.title.white {
+  color: #fff;
 }
 
-img.img-responsive.equipe{
-  box-shadow:inset 0 1px 3px rgba(0,0,0,.1);
+.panel-default > .panel-heading {
+  color: #17454C;
+  background-color: #fff;
+  border-color: #fff;
 }
 
-h1.botao{
-  font-size:40px;
-  color:#fff;
+p.subtitulo.white {
+  color: white;
 }
 
-span.botao{
-  font-weight:800;
-  text-transform:uppercase;
-  clear:both;
-  display:block;
-  font-size:20px;
+section.faq {
+  background-color: #f5f5f5;
+  padding: 30px 0;
+  margin: 0;
+  box-shadow: inset 0 1px 3px rgba(0,0,0,.1);
 }
 
-p.botao{
-  width:100px;
-  font-size:50px;
+h1.ganha {
+  font-size: 40px;
+  font-family: 'Signika';
 }
 
-p.subtitulo{
-  font-size:20px;
+.icon-ganha {
+  font-size: 60px;
 }
 
-h1.title.white{
-  color:#fff;
+.list-ganha {
+  font-size: 18px;
+  line-height: 1.8;
 }
-
-.panel-default > .panel-heading{
-  color:#17454C;
-  background-color:#fff;
-  border-color:#fff;
-}
-
-p.subtitulo.white{
-  color:white;
-}
-
-section.faq{
-  background-color:#f5f5f5;
-  padding:30px 0;
-  margin:0;
-  box-shadow:inset 0 1px 3px rgba(0,0,0,.1);
-}
-
-h1.ganha{
-  font-size:40px;
-  font-family:'Signika';
-}
-
-.icon-ganha{
-  font-size:60px;
-}
-
-.list-ganha{
-  font-size:18px;
-  line-height:1.8;
-}
-
-div.row.sociedade-ganha{
-  margin-bottom:40px;
-}
-
-li.list-ganha{
-  margin-bottom:20px;
-}
-
-ol, ul{
-  margin-top:0;
-  margin-bottom:10px;
-}
-
-.color-red{
-  color:#f05b5b;
-}
-
-color-blue{
-}
-
-.color-blue{
-  color:#00b0cc;
-}
-
-.color-yellow{
-  color:#ffca05;
-}
-
-.text-white{
-  color:white;
-}
-
-div.texto-ganha{
-  width:70%;
-}
-
-.lista{
-  
-  font-size: 17px;
-}
-.lista li{
-
-  margin-top: 15px;
-}
-
-.curso{
-  font-size:23px;
-  margin:0;
-  margin-bottom:20px;
-}
-
-.left{
-  font-size:16px;
-  text-align:center;
-  
-  float:left;
-}
-
-.right{
-  float:left;
-  display:inline-block;
-  ;
-}
-
-.cursoLista{
-  font-size:16px;
-  height:120px;
-  overflow:hidden;
-}
-
-.cursoBox{
-  border:1px
-solid #E5E5E5;
-  padding:0;
-  margin-top:20px;
-}
-
-.cursoInner{
-  padding:20px;
-}
-
-div.cursoBtn{
-  width:100%;
-  text-align:center;
-  margin-top:50px;
-}
-
-
 
-div.image{
-  position:relative;
-  height:200px;
-  overflow:hidden;
-  width:100%;
+div.row.sociedade-ganha {
   margin-bottom: 40px;
 }
 
-div.image img{
-  position:absolute;
-  top:50%;
-  left:50%;
-  transform:translate(-50%, -50%);
-  -webkit-transform:translate(-50%,-50%);
-  -ms-transform:translate(-50%,-50%);
-  opacity: 0.6;
-  background-color: #000;
+li.list-ganha {
+  margin-bottom: 20px;
+}
+
+ol, ul {
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
+.color-red {
+  color: #f05b5b;
+}
+
+color-blue {
+}
+
+.color-blue {
+  color: #00b0cc;
+}
+
+.color-yellow {
+  color: #ffca05;
+}
+
+.text-white {
+  color: white;
+}
+
+div.texto-ganha {
+  width: 70%;
+}
+
+.lista {
+  line-height: 2;
+}
+
+.curso {
+  font-size: 23px;
+  margin: 0;
+  margin-bottom: 20px;
+}
+
+.left {
+  font-size: 16px;
+  text-align: center;
+  float: left;
+}
+
+.right {
+  float: left;
+  display: inline-block;
+}
+
+.cursoLista {
+  font-size: 16px;
+  height: 120px;
+  overflow: hidden;
+}
+
+.cursoBox {
+  border: 1px
+solid #E5E5E5;
+  padding: 0;
+  margin-top: 20px;
+}
+
+.cursoInner {
+  padding: 20px;
+}
+
+div.cursoBtn {
+  width: 100%;
+  text-align: center;
+  margin-top: 50px;
+}
+
+div.image a {
+  vertical-align: middle;
+  display: table-cell;
+}
+
+div.image {
+  position: relative;
+  height: 200px;
+  overflow: hidden;
+  width: 100%;
+}
+
+div.image img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%,-50%);
+  -ms-transform: translate(-50%,-50%);
+}
+
+.doe-icon {
+  height: 150px;
+  border: 2px dotted #ccc;
+  padding: 20px;
+  border-radius: 5px;
+  background-color: #f5f5f5;
+}
+
+section.historico {
+  padding: 50px 20px;
+  background-color: #f5f5f5;
+  box-shadow: inset 0 1px 3px rgba(0,0,0,.1);
+}
+
+.doacoesIRPasso {
+  font-size: 14px;
+}
+
+.doacoesIRPasso li {
+  margin-top: 25px;
+}
+
+.title2 {
+  font-size: 25px;
+  line-height: 35px;
+}
+
+#doacoes-historias {
+  padding: 50px 0;
+}
+
+.formulario {
+  width: 400px;
+  margin: 0 auto;
+  background-color: #fff;
+  box-shadow: 2px #000;
+}
+
+#form {
+  padding: 50px 0;
+}
+
+.contact-clean form {
+  max-width: 480px;
+  width: 90%;
+  margin: 0 auto;
+  background-color: #ffffff;
+  padding: 40px;
+  border-radius: 4px;
+  color: #505e6c;
+  box-shadow: 1px 1px 5px rgba(0,0,0,0.1);
 }
 
