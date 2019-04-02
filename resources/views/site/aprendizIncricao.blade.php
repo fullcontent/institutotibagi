@@ -96,20 +96,7 @@
                 Para participar do processo seletivo somente para o curso de Eletromecânica, aqueles que tem acima de 18 anos, é necessário comparecer ao Instituto Tibagi, em uma das datas a seguir, munido de originais e fotocópias de TODA a documentação obrigatória pontualmente às 14h30 para participação na palestra informativa sobre o Programa de Aprendizagem.
             </p>
             
-<<<<<<< HEAD
-            <h2 class="text-center">Data das próximas palestras</h2>
-
-
-
-
-		<div class="col-md-2 thumbnail" style="margin-left: 20px">
-		<h1>28/01</h1>
-		<p>14h30</p>
-</div>
-
-=======
            
->>>>>>> e55aad0cd50b19ad47d549c833da7e59d312ffd6
             
         </div>
         
