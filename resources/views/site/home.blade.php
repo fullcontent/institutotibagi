@@ -7,7 +7,7 @@
             <div class="col-md-7">
                 <div class="video">
                     <h2>Bem vindos ao instituto tibagi</h2>
-                    <iframe width="640" height="315" allowfullscreen="" frameborder="0" src="https://www.youtube.com/embed/Ie0VQQglOjY?controls=0&amp;showinfo=0&amp;rel=0"></iframe>
+                    <iframe width="640" height="315" allowfullscreen="" frameborder="0" src="https://www.youtube.com/embed/Urb6HQUonC8?controls=0&amp;showinfo=0&amp;rel=0"></iframe>
                 </div>
                
             </div>
