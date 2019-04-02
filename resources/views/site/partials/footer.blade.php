@@ -78,6 +78,11 @@
                                     <i class="fa fa-soundcloud"></i>
                                 </a>
                         </span>
+                        <span class="footer-icons">
+                            <a href="https://www.instagram.com/institutotibagi/" target="_blank"  class="color-red" style="color: #6e462b;">
+                                    <i class="fa fa-instagram"></i>
+                                </a>
+                        </span>
                         
     
                     </div>
