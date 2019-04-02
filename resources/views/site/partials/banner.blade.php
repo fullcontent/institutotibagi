@@ -10,7 +10,7 @@
         @endphp
 
 
-        <div class="carousel slide hidden-xs hidden-sm" data-ride="carousel" id="carousel-1">
+        <div class="carousel slide" data-ride="carousel" id="carousel-1">
         <div class="carousel-inner" role="listbox">
             
             
