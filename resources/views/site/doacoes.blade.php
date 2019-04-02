@@ -25,26 +25,23 @@
         
         <p class="text-center">Ajudar na formação de um aprendiz é agradecer àqueles que um dia também nos ensinaram a dar os primeiros passos na vida profissional! </p>
         <p class="lead text-uppercase text-center">Veja como você pode fazer a diferença na vida de um jovem! </p>
-        <div class="col-md-2 col-md-offset-1 btn btn-warning thumbnail">
+        <div class="col-md-3  btn btn-warning thumbnail">
         	<a href="#doacoes-diretas" class="btn">
             <h1 class="text-center ganha"><i class="glyphicon glyphicon-heart"></i></h1>
             <h1 class="text-center setor">Doações diretas</h1></a></div>
-        <div class="col-md-2 btn btn-warning thumbnail">
+        <div class="col-md-3 btn btn-warning thumbnail">
         	<a href="#doacoes-imposto" class="btn">
             <h1 class="text-center ganha"><i class="glyphicon glyphicon-list-alt"></i></h1>
             <h1 class="text-center setor">Imposto de renda</h1></a></div>
-        <div class="col-md-2 btn btn-warning thumbnail">
+        <div class="col-md-3 btn btn-warning thumbnail">
         	<a href="#doacoes-materiais" class="btn">
             <h1 class="text-center ganha"><i class="fa fa-television"></i></h1>
             <h1 class="text-center setor">Materiais diversos</h1></a></div>
-        <div class="col-md-2 btn btn-warning thumbnail">
+        <div class="col-md-3 btn btn-warning thumbnail">
         	<a href="#doacoes-eletronicos" class="btn">
             <h1 class="text-center ganha"><i class="fa fa-usb"></i></h1>
             <h1 class="text-center setor">Eletrônicos </h1></a></div>
-        <div class="col-md-2 btn btn-warning thumbnail">
-        	<a href="#doacoes-bazar" class="btn">
-            <h1 class="text-center ganha"><i class="fa fa-shopping-bag"></i></h1>
-            <h1 class="text-center setor">Bazar beneficente</h1></a></div>
+       
     </div>
 </section>
 
@@ -147,7 +144,7 @@
 </section>
 
 
-<section id="doacoes-bazar">
+<section id="doacoes-bazar" style="display: none;">
     <div class="container">
         <h1 class="text-center title ganha"><i class="fa fa-shopping-bag"></i> Bazar beneficente permanente</h1>
         <div class="col-md-6">
