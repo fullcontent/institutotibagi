@@ -1,4 +1,4 @@
-<img src="http://institutotibagi.org.br/wp-content/uploads/2015/06/logo_institutotibagi-300x128.png"/>
+<img src="http://institutotibagi.org.br/assets/img/logo_institutotibagi-300x128.png"/>
 
 
 ## Sobre
