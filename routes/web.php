@@ -65,5 +65,16 @@ Route::get('/admin/cursos/duplicar/{id}', 'Admin\CursosController@duplicate')->n
 
 
 
+Route::get('/admin/menu', function() {
+
+$routeCollection = json_decode(json_encode(Route::getRoutes()->get(),true),true);
+foreach ($routeCollection as $key => $value) {
+     if(array_key_exists('as',$value['action'])){
+        dump($value['action']['as']);
+   }
+}
+
+});
+
 
 

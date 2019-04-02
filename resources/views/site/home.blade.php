@@ -25,6 +25,8 @@
 
             </div>
         </div>
+
+
         <div class="container">
             <h1 class="text-center title">Nossos parceiros</h1>
             
