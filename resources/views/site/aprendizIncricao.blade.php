@@ -19,9 +19,6 @@
         </div>
     </section>
 
-
-
-
     <div class="container">
             
              @if ($message = Session::get('success'))
