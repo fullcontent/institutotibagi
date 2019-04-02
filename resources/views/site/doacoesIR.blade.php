@@ -56,11 +56,11 @@
         <p class="text-center">Neste ano, você pode nos ajudar a transformar o futuro de dezenas de meninos e meninas<br />dando uma nova perspectiva de vida através de conhecimento, protagonismo e incentivo ao<br />empreendedorismo.</p>
         <div class="container">
             <div class="row">
-                <div class="col-md-4"><a href="https://www.youtube.com/watch?v=UeuVOp5llqw&amp;t=42s" target="_blank"><img src="https://i.ytimg.com/vi/GzoYBoMvTwI/hqdefault.jpg?sqp=-oaymwEZCNACELwBSFXyq4qpAwsIARUAAIhCGAFwAQ==&amp;rs=AOn4CLBtprj1oZvpH73AXG2c0ChMD2XrqA" /></a></div>
+                <div class="col-md-4"><a href="https://www.youtube.com/watch?v=GzoYBoMvTwI" target="_blank"><img src="https://i.ytimg.com/vi/GzoYBoMvTwI/hqdefault.jpg?sqp=-oaymwEZCNACELwBSFXyq4qpAwsIARUAAIhCGAFwAQ==&amp;rs=AOn4CLBtprj1oZvpH73AXG2c0ChMD2XrqA" /></a></div>
                 <div
-                    class="col-md-4"><a href="https://www.youtube.com/watch?v=UeuVOp5llqw&amp;t=42s" target="_blank"><img src="https://i.ytimg.com/vi/NzzaptMEvCo/hqdefault.jpg?sqp=-oaymwEZCNACELwBSFXyq4qpAwsIARUAAIhCGAFwAQ==&amp;rs=AOn4CLA-QSoaRYAPNZ3f8mu3JGc2klbT2A" /></a></div>
+                    class="col-md-4"><a href="https://www.youtube.com/watch?v=NzzaptMEvCo" target="_blank"><img src="https://i.ytimg.com/vi/NzzaptMEvCo/hqdefault.jpg?sqp=-oaymwEZCNACELwBSFXyq4qpAwsIARUAAIhCGAFwAQ==&amp;rs=AOn4CLA-QSoaRYAPNZ3f8mu3JGc2klbT2A" /></a></div>
             <div
-                class="col-md-4"><a href="https://www.youtube.com/watch?v=UeuVOp5llqw&amp;t=42s" target="_blank"><img src="https://i.ytimg.com/vi/UeuVOp5llqw/hqdefault.jpg?sqp=-oaymwEZCNACELwBSFXyq4qpAwsIARUAAIhCGAFwAQ==&amp;rs=AOn4CLAWBP_RTxUnmPeRxJCw42lO7IeSQQ" /></a></div>
+                class="col-md-4"><a href="https://www.youtube.com/watch?v=UeuVOp5llqw" target="_blank"><img src="https://i.ytimg.com/vi/UeuVOp5llqw/hqdefault.jpg?sqp=-oaymwEZCNACELwBSFXyq4qpAwsIARUAAIhCGAFwAQ==&amp;rs=AOn4CLAWBP_RTxUnmPeRxJCw42lO7IeSQQ" /></a></div>
         </div>
         </div>
     </section>
@@ -119,4 +119,4 @@
 
 
 
-@include('site.partials.footer')
+	@include('site.partials.footer')
