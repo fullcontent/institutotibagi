@@ -92,7 +92,7 @@
     <div class="col-lg-5 col-md-5">
         <div class="page-row">
             <h3>Inscrição </h3>
-            <p>Para participar do processo seletivo do {{$curso->nome}} o candidato deverá cadastrar-se no link abaixo. Após ter preenchido corretamente seu cadastro deverá aguardar a abertura do edital e convocação via e-mail.</p>
+            <p>Para participar do processo seletivo do {{$curso->nome}} o candidato deverá cadastrar-se no link abaixo.</p>
             <a
             class="btn btn-success btn-block btn-lg" role="button" href="{{route('aprendizQuero')}}">Inscreva-se </a>
         </div>
