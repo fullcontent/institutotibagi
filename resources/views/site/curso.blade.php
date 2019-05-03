@@ -78,6 +78,9 @@
                                 <li>Carteira de Trabalho </li>
                                 <li>Comprovante de residência </li>
                                 <li>Cartão transporte </li>
+                                <li>Título de eleitor (original e fotocópia)</li>
+                                <li>Histórico escolar para quem concluiu o ensino médio (original e fotocópia)</li>
+                                <li>Certificado de incorporação ou reservista (original e fotocópia)</li>
                                 <li>Comprovante de renda familiar </li>
                                 <li>Declaração de matrícula e boletim (para quem está estudando) </li>
                                 <li>Se estiver cursando o CEBJA trazer comprovante de matrícula comas matérias que está cursando </li>
