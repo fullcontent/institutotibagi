@@ -78,6 +78,9 @@
                                 <li>Carteira de Trabalho </li>
                                 <li>Comprovante de residência </li>
                                 <li>Cartão transporte </li>
+                                <li>Título de eleitor (original e fotocópia)</li>
+                                <li>Histórico escolar para quem concluiu o ensino médio (original e fotocópia)</li>
+                                <li>Certificado de incorporação ou reservista (original e fotocópia)</li>
                                 <li>Comprovante de renda familiar </li>
                                 <li>Declaração de matrícula e boletim (para quem está estudando) </li>
                                 <li>Se estiver cursando o CEBJA trazer comprovante de matrícula comas matérias que está cursando </li>
@@ -92,7 +95,7 @@
     <div class="col-lg-5 col-md-5">
         <div class="page-row">
             <h3>Inscrição </h3>
-            <p>Para participar do processo seletivo do {{$curso->nome}} o candidato deverá cadastrar-se no link abaixo. Após ter preenchido corretamente seu cadastro deverá aguardar a abertura do edital e convocação via e-mail.</p>
+            <p>Para participar do processo seletivo do {{$curso->nome}} o candidato deverá cadastrar-se no link abaixo.</p>
             <a
             class="btn btn-success btn-block btn-lg" role="button" href="{{route('aprendizQuero')}}">Inscreva-se </a>
         </div>
