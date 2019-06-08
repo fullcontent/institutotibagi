@@ -43,7 +43,6 @@
                 
                 <ul class="nav navbar-nav navbar-right">
                     <li role="presentation"><a href="{{route('home')}}">Home</a></li>
-                    <li role="presentation"><a href="{{route('doacoesIR')}}">Doação IR</a></li>
                     <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" aria-expanded="false" href="{{route('sobre')}}">O Instituto<span class="caret"></span></a>
                         <ul class="dropdown-menu" role="menu">
                             <li role="presentation"><a href="{{route('sobre')}}#quemsomos">Quem somos</a></li>
